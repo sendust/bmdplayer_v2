@@ -1,0 +1,54 @@
+[2022/11/01] 15:09:57.137397  Application start -----------------------------------------
+[2022/11/01] 15:09:57.138344  PID is 6636
+[2022/11/01] 15:09:57.138344  Creating Caspar info object
+[2022/11/01] 15:09:57.143397  Creating pygame window object
+[2022/11/01] 15:09:57.893073  Creating osc listen object
+[2022/11/01] 15:09:57.893073  Creating info display object
+[2023/02/16] 10:20:54.511385  Application start -----------------------------------------
+[2023/02/16] 10:20:54.511385  PID is 4972
+[2023/02/16] 10:20:54.512312  Creating Caspar info object
+[2023/02/16] 10:20:54.517292  Creating pygame window object
+[2023/02/16] 10:20:55.233467  Creating osc listen object
+[2023/02/16] 10:20:55.233467  Creating info display object
+[2023/02/16] 10:23:00.831913  Application start -----------------------------------------
+[2023/02/16] 10:23:00.831913  PID is 11164
+[2023/02/16] 10:23:00.832910  Creating Caspar info object
+[2023/02/16] 10:23:00.838905  Creating pygame window object
+[2023/02/16] 10:23:00.989540  Creating osc listen object
+[2023/02/16] 10:23:00.990489  Creating info display object
+[2023/02/16] 10:29:02.562251  Application start -----------------------------------------
+[2023/02/16] 10:29:02.562251  PID is 6092
+[2023/02/16] 10:29:02.563199  Creating Caspar info object
+[2023/02/16] 10:29:02.568187  Creating pygame window object
+[2023/02/16] 10:29:02.777811  Creating osc listen object
+[2023/02/16] 10:29:02.777811  Creating info display object
+[2023/02/17] 10:16:19.113384  Application start -----------------------------------------
+[2023/02/17] 10:16:19.115377  PID is 10472
+[2023/02/17] 10:16:19.116375  Creating Caspar info object
+[2023/02/17] 10:16:19.122359  Creating pygame window object
+[2023/02/17] 10:16:19.879536  Creating osc listen object
+[2023/02/17] 10:16:19.879536  Creating info display object
+[2023/02/17] 14:01:27.271967  Application start -----------------------------------------
+[2023/02/17] 14:01:27.271967  PID is 8332
+[2023/02/17] 14:01:27.271967  Creating Caspar info object
+[2023/02/17] 14:01:27.272965  Creating pygame window object
+[2023/02/17] 14:01:27.477466  Creating osc listen object
+[2023/02/17] 14:01:27.478498  Creating info display object
+[2023/02/17] 14:03:33.198077  Application start -----------------------------------------
+[2023/02/17] 14:03:33.199041  PID is 10392
+[2023/02/17] 14:03:33.199041  Creating Caspar info object
+[2023/02/17] 14:03:33.199996  Creating pygame window object
+[2023/02/17] 14:03:33.357781  Creating osc listen object
+[2023/02/17] 14:03:33.358732  Creating info display object
+[2023/02/17] 14:05:05.025043  Application start -----------------------------------------
+[2023/02/17] 14:05:05.026042  PID is 9676
+[2023/02/17] 14:05:05.026042  Creating Caspar info object
+[2023/02/17] 14:05:05.027039  Creating pygame window object
+[2023/02/17] 14:05:05.192641  Creating osc listen object
+[2023/02/17] 14:05:05.193651  Creating info display object
+[2023/07/10] 14:12:17.277438  Application start -----------------------------------------
+[2023/07/10] 14:12:17.278432  PID is 9524
+[2023/07/10] 14:12:17.279430  Creating Caspar info object
+[2023/07/10] 14:12:17.280278  Creating pygame window object
+[2023/07/10] 14:12:18.270143  Creating osc listen object
+[2023/07/10] 14:12:18.271141  Creating info display object

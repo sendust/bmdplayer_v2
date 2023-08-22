@@ -1,0 +1,57 @@
+<html>
+<head>
+<META http-equiv="Expires" contest="-1">
+<META http-equiv="Pragma" contest="no-cache">
+<META http-equiv="ExpiresCache-Control" content="No-Cache">
+
+<script>
+
+function createXHR() {
+    try {
+        return new XMLHttpRequest();
+    } catch (e) {
+        try {
+            return new ActiveXObject("Microsoft.XMLHTTP");
+        } catch (e) {
+            return new ActiveXObject("Msxml2.XMLHTTP");
+        }
+    }
+};
+
+
+
+function send_request(){
+	xmlhttp.open("GET", "listen_udp.php?t=" + Math.random(), true);
+	xmlhttp.send();
+
+};
+
+
+
+var xmlhttp = createXHR();
+ send_request();			// send first request
+
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+	document.getElementById("txt").innerHTML = this.responseText;
+	send_request();		// send repeative request (every return arrived)
+  }
+  else{
+  console.log("readyStats is " + this.readyState + "    status is " + this.status );
+  };
+}
+	  
+	  
+
+</script>
+
+</head>
+
+<body>
+
+<p>Server time is  </p>
+<div id="txt"></div>
+
+
+</body>
+</html>

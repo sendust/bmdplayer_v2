@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channel>
+   <framerate>60000</framerate>
+   <framerate>1001</framerate>
+   <mixer>
+      <audio>
+         <volume>163250176</volume>
+         <volume>163250176</volume>
+         <volume>65536</volume>
+         <volume>65536</volume>
+         <volume>65536</volume>
+         <volume>65536</volume>
+         <volume>156368896</volume>
+         <volume>156303360</volume>
+      </audio>
+   </mixer>
+   <stage>
+      <layer>
+         <layer_1>
+            <background>
+               <file>
+                  <clip>0</clip>
+                  <clip>0</clip>
+                  <name>0212.mxf</name>
+                  <path>media/0212.mxf</path>
+                  <time>0</time>
+                  <time>0</time>
+               </file>
+               <loop>false</loop>
+               <producer>transition</producer>
+               <transition>
+                  <frame>0</frame>
+                  <frame>0</frame>
+                  <type>cut</type>
+               </transition>
+            </background>
+            <foreground>
+               <file>
+                  <clip>0</clip>
+                  <clip>3530.4936333333335</clip>
+                  <name>long.mov</name>
+                  <path>media/long.mov</path>
+                  <streams>
+                     <file>
+                        <streams_0>
+                           <fps>30000</fps>
+                           <fps>1001</fps>
+                        </streams_0>
+                        <streams_1>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_1>
+                        <streams_2>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_2>
+                        <streams_3>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_3>
+                        <streams_4>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_4>
+                        <streams_5>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_5>
+                        <streams_6>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_6>
+                        <streams_7>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_7>
+                        <streams_8>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_8>
+                        <streams_9>
+                           <fps>0</fps>
+                           <fps>0</fps>
+                        </streams_9>
+                     </file>
+                  </streams>
+                  <time>1675.0567166666667</time>
+                  <time>3530.4936333333335</time>
+               </file>
+               <loop>true</loop>
+               <paused>false</paused>
+               <producer>ffmpeg</producer>
+            </foreground>
+         </layer_1>
+      </layer>
+   </stage>
+</channel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

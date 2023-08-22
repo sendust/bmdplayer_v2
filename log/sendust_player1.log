@@ -1,0 +1,2364 @@
+[2022/11/01 15:09.53_533]  - ------------------  Application Start -----------------------
+[2022/11/01 15:09.53_533]  - Engine version is 2.3
+[2022/11/01 15:09.53_534]  - Creating python info reader class....
+[2022/11/01 15:09.53_543]  - Start python caspar info reader
+[2022/11/01 15:09.53_716]  - Serial Remote parameter from INI is 1
+[2022/11/01 15:09.53_745]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2022/11/01 15:09.54_225]  - Engine pid is 3508
+[2022/11/01 15:09.54_725]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2022/11/01 15:09.54_730]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2022/11/01 15:09.54_730]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2022/11/01 15:09.54_731]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2022/11/01 15:09.55_698]  - 
+Update property text with ----------------  
+3min_RED.mxf
+-----------------------
+Resolution : 3840x2160
+Codec : AVC
+Audio Format : mono-8
+Duration: 203.870000 (0:03:23;26)
+Total Frame : 12220
+Framerate: 59.940
+StartTC: 00:00:00:00
+ScanType: Progressive
+[2022/11/01 15:09.56_727]  - Caspar CG launched with PID 3508
+[2022/11/01 15:09.56_727]  - text to send is ---- Log Level warning
+
+[2022/11/01 15:09.56_739]  - 202 LOG OK
+
+[2022/11/01 15:09.56_832]  - text to send is ---- remove 3 screen
+
+[2022/11/01 15:09.56_834]  - 202 REMOVE OK
+
+[2022/11/01 15:09.56_943]  - text to send is ---- play 1-1 empty
+
+[2022/11/01 15:09.56_951]  - 202 PLAY OK
+
+[2022/11/01 15:09.56_987]  - text to send is ---- play 2-1 route://1-1
+
+[2022/11/01 15:09.56_988]  - 202 PLAY OK
+
+[2022/11/01 15:09.57_034]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2022/11/01 15:09.57_082]  - 202 PLAY OK
+
+[2022/11/01 15:09.58_043]  - Create udp remote class....
+[2022/11/01 15:09.58_044]  - Run external remote host 
+[2022/11/01 15:09.58_045]  - Run remote host application
+[2022/11/01 15:09.58_070]  - foreground file change detected  -- 
+[2022/11/01 15:09.58_147]  - run command ---- 
+C:\ahk\BMD_PLAYER_v2\bin\mpv.com --lavfi-complex=[aid1][aid2][aid3][aid4][aid5][aid6][aid7][aid8]amerge=inputs=8[a1];[a1]asplit[as1][as2];[as2]showvolume=r=29.97[vvolume];[vid1]format=pix_fmts=yuv420p[vf];[vf][vvolume]overlay=x=20:y=20[vo];[as1]pan=stereo|c0=c0|c1=c1[ao]    --script="C:\ahk\BMD_PLAYER_v2\mark_inout_file.lua"   --pause --keep-open --force-window=yes --window-scale=0.5 --hr-seek=yes --osd-level=3 --osd-fractions  --sub-align-x=right --sub-pos=20  --sub-paths="f:\temp" "F:\capture\uhd\3min_RED.mxf" --title "Preview play... F:\capture\uhd\3min_RED.mxf"
+[2022/11/01 15:09.58_147]  - MPV launched with PID 11600/ Geometry   Mediapath = F:\capture\uhd\3min_RED.mxf
+[2022/11/01 15:09.59_867]  - [spacebar] button pressed while preview play
+[2022/11/01 15:10.04_200]  - Preview Window Closed
+[2022/11/01 15:10.16_384]  - ------------------  Application Close -----------------------
+[2022/11/01 15:10.17_739]  - text to send is ---- clear 1-1
+
+[2022/11/01 15:10.17_740]  - 202 CLEAR OK
+
+[2022/11/01 15:10.17_942]  - text to send is ---- klll
+
+[2022/11/01 15:10.17_943]  - 400 ERROR
+klll
+
+[2022/11/01 15:10.18_071]  - There is Engine process, Try to close it 
+[2022/11/01 15:10.19_180]  - Destroying python info reader class....
+[2022/11/01 15:10.19_181]  - Delete udp remote class.....
+[2023/02/16 10:20.50_886]  - ------------------  Application Start -----------------------
+[2023/02/16 10:20.50_886]  - Engine version is 2.3
+[2023/02/16 10:20.50_886]  - Creating python info reader class....
+[2023/02/16 10:20.50_886]  - Start python caspar info reader
+[2023/02/16 10:20.51_027]  - Serial Remote parameter from INI is 1
+[2023/02/16 10:20.51_089]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/02/16 10:20.51_495]  - Engine pid is 8736
+[2023/02/16 10:20.51_989]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/16 10:20.51_994]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/16 10:20.51_995]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/16 10:20.51_995]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/16 10:20.53_996]  - Caspar CG launched with PID 8736
+[2023/02/16 10:20.53_996]  - text to send is ---- Log Level warning
+
+[2023/02/16 10:20.54_003]  - 202 LOG OK
+
+[2023/02/16 10:20.54_103]  - text to send is ---- remove 3 screen
+
+[2023/02/16 10:20.54_105]  - 202 REMOVE OK
+
+[2023/02/16 10:20.54_209]  - text to send is ---- play 1-1 empty
+
+[2023/02/16 10:20.54_259]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/16 10:20.54_261]  - 202 PLAY OK
+
+[2023/02/16 10:20.54_301]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/16 10:20.54_987]  - Create udp remote class....
+[2023/02/16 10:20.54_988]  - Run external remote host 
+[2023/02/16 10:20.54_988]  - Run remote host application
+[2023/02/16 10:20.55_244]  - foreground file change detected  -- 
+[2023/02/16 10:21.00_479]  - ------------------  Application Close -----------------------
+[2023/02/16 10:21.01_371]  - text to send is ---- clear 1-1
+
+[2023/02/16 10:21.01_570]  - text to send is ---- klll
+
+[2023/02/16 10:21.01_571]  - 400 ERROR
+klll
+
+[2023/02/16 10:21.01_700]  - There is Engine process, Try to close it 
+[2023/02/16 10:21.02_834]  - text to send is ---- klll
+
+[2023/02/16 10:21.04_857]  - 
+--------   Print object list  ---------
+File ---->  C:\ahk\BMD_PLAYER_v2\socket_nonblock.ahk
+Line ---->  57
+Message ---->  Error connecting
+What ---->  Socket.Connect
+
+[2023/02/16 10:21.04_857]  - There is Engine process, Try to close it 
+[2023/02/16 10:21.05_950]  - Destroying python info reader class....
+[2023/02/16 10:21.05_950]  - Delete udp remote class.....
+[2023/02/16 10:23.00_469]  - ------------------  Application Start -----------------------
+[2023/02/16 10:23.00_469]  - Engine version is 2.3
+[2023/02/16 10:23.00_484]  - Creating python info reader class....
+[2023/02/16 10:23.00_484]  - Start python caspar info reader
+[2023/02/16 10:23.00_484]  - Serial Remote parameter from INI is 1
+[2023/02/16 10:23.00_500]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/02/16 10:23.00_646]  - Engine pid is 8068
+[2023/02/16 10:23.01_003]  - foreground file change detected  -- 
+[2023/02/16 10:23.01_147]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/16 10:23.01_148]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/16 10:23.01_148]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/16 10:23.01_149]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/16 10:23.03_153]  - Caspar CG launched with PID 8068
+[2023/02/16 10:23.03_154]  - text to send is ---- Log Level warning
+
+[2023/02/16 10:23.03_162]  - 202 LOG OK
+
+[2023/02/16 10:23.03_259]  - text to send is ---- remove 3 screen
+
+[2023/02/16 10:23.03_261]  - 202 REMOVE OK
+
+[2023/02/16 10:23.03_369]  - text to send is ---- play 1-1 empty
+
+[2023/02/16 10:23.03_388]  - 202 PLAY OK
+
+[2023/02/16 10:23.03_412]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/16 10:23.03_413]  - 202 PLAY OK
+
+[2023/02/16 10:23.03_466]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/16 10:23.03_529]  - 202 PLAY OK
+
+[2023/02/16 10:23.04_148]  - Create udp remote class....
+[2023/02/16 10:23.04_149]  - Run external remote host 
+[2023/02/16 10:23.04_150]  - Run remote host application
+[2023/02/16 10:23.06_923]  - [MEDIAFOLDER] button pressed
+[2023/02/16 10:23.17_066]  - 
+Update property text with ----------------  
+news,1景蝶 - 犒餌獄--.mxf
+-----------------------
+Resolution : 1920x1080
+Codec : MPEG Video
+Audio Format : mono-4
+Duration: 20.654000 (0:00:20;19)
+Total Frame : 619
+Framerate: 29.970
+StartTC: 14:11:37;29
+ScanType: Interlaced
+[2023/02/16 10:23.20_509]  - 
+Update property text with ----------------  
+瑣蝸溯檜 4檣蝓_20180224-110431.mxf
+-----------------------
+Resolution : 1920x1080
+Codec : MPEG Video
+Audio Format : mono-8
+Duration: 4403.833000 (1:13:23;25)
+Total Frame : 131983
+Framerate: 29.970
+StartTC: 11:04:31;20
+ScanType: Interlaced
+[2023/02/16 10:23.20_967]  - [LOAD] Button Pressed. current timerem is 86400.0
+[2023/02/16 10:23.20_968]  - --caspar.medianame-- at load time is = /瑣蝸溯檜 4檣蝓_20180224-110431
+[2023/02/16 10:23.20_969]  - text to send is ---- loadbg 1-1 "/瑣蝸溯檜 4檣蝓_20180224-110431" SEEK 0 LENGTH 263966 
+
+[2023/02/16 10:23.20_974]  - 202 LOADBG OK
+
+[2023/02/16 10:23.20_988]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/02/16 10:23.20_989]  - Finish load command execution
+[2023/02/16 10:23.20_989]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/02/16 10:23.21_114]  - foreground file change detected  -- /瑣蝸溯檜 4檣蝓_20180224-110431.mxf
+[2023/02/16 10:23.23_114]  - [PLAY] Button Pressed. current timerem is 4403.8330078125
+[2023/02/16 10:23.23_115]  - text to send is ---- PLAY 1-1
+
+[2023/02/16 10:23.23_116]  - [play command] PLAY 1-1
+[2023/02/16 10:23.23_116]  - pb index is 0
+[2023/02/16 10:23.23_118]  - 202 PLAY OK
+
+[2023/02/16 10:23.26_924]  - [PAUSE] Button Pressed. current timerem is 4401.914424538612
+[2023/02/16 10:23.26_926]  - text to send is ---- pause 1-1
+
+[2023/02/16 10:23.26_927]  - Pause command 1-1
+[2023/02/16 10:23.26_928]  - 202 PAUSE OK
+
+[2023/02/16 10:23.27_808]  - text to send is ---- call 1-1  seek 786
+
+[2023/02/16 10:23.27_810]  - 201 CALL OK
+786
+
+[2023/02/16 10:23.28_496]  - text to send is ---- call 1-1  seek 1445
+
+[2023/02/16 10:23.28_497]  - 201 CALL OK
+1445
+
+[2023/02/16 10:23.29_248]  - text to send is ---- call 1-1  seek 2104
+
+[2023/02/16 10:23.29_250]  - 201 CALL OK
+2104
+
+[2023/02/16 10:23.29_856]  - text to send is ---- call 1-1  seek 2763
+
+[2023/02/16 10:23.29_858]  - 201 CALL OK
+2763
+
+[2023/02/16 10:23.30_400]  - text to send is ---- call 1-1  seek 3422
+
+[2023/02/16 10:23.30_402]  - 201 CALL OK
+3422
+
+[2023/02/16 10:23.30_927]  - text to send is ---- call 1-1  seek 4081
+
+[2023/02/16 10:23.30_930]  - 201 CALL OK
+4081
+
+[2023/02/16 10:23.31_311]  - text to send is ---- call 1-1  seek 3422
+
+[2023/02/16 10:23.31_314]  - 201 CALL OK
+3422
+
+[2023/02/16 10:23.31_936]  - text to send is ---- call 1-1  seek 3424
+
+[2023/02/16 10:23.31_939]  - 201 CALL OK
+3424
+
+[2023/02/16 10:23.32_527]  - text to send is ---- call 1-1  seek 3426
+
+[2023/02/16 10:23.32_530]  - 201 CALL OK
+3426
+
+[2023/02/16 10:23.33_088]  - text to send is ---- call 1-1  seek 3428
+
+[2023/02/16 10:23.33_090]  - 201 CALL OK
+3428
+
+[2023/02/16 10:23.33_504]  - text to send is ---- call 1-1  seek 3430
+
+[2023/02/16 10:23.33_520]  - 201 CALL OK
+3430
+
+[2023/02/16 10:23.33_871]  - text to send is ---- call 1-1  seek 3432
+
+[2023/02/16 10:23.33_873]  - 201 CALL OK
+3432
+
+[2023/02/16 10:23.34_256]  - text to send is ---- call 1-1  seek 3434
+
+[2023/02/16 10:23.34_259]  - 201 CALL OK
+3434
+
+[2023/02/16 10:23.34_560]  - text to send is ---- call 1-1  seek 3436
+
+[2023/02/16 10:23.34_562]  - 201 CALL OK
+3436
+
+[2023/02/16 10:23.34_831]  - text to send is ---- call 1-1  seek 3438
+
+[2023/02/16 10:23.34_833]  - 201 CALL OK
+3438
+
+[2023/02/16 10:23.35_120]  - text to send is ---- call 1-1  seek 3440
+
+[2023/02/16 10:23.35_122]  - 201 CALL OK
+3440
+
+[2023/02/16 10:23.35_488]  - text to send is ---- call 1-1  seek 3438
+
+[2023/02/16 10:23.35_490]  - 201 CALL OK
+3438
+
+[2023/02/16 10:23.35_759]  - text to send is ---- call 1-1  seek 3436
+
+[2023/02/16 10:23.35_761]  - 201 CALL OK
+3436
+
+[2023/02/16 10:23.35_999]  - text to send is ---- call 1-1  seek 3436
+
+[2023/02/16 10:23.36_001]  - 201 CALL OK
+3436
+
+[2023/02/16 10:23.36_223]  - text to send is ---- call 1-1  seek 3434
+
+[2023/02/16 10:23.36_225]  - 201 CALL OK
+3434
+
+[2023/02/16 10:23.36_447]  - text to send is ---- call 1-1  seek 3432
+
+[2023/02/16 10:23.36_450]  - 201 CALL OK
+3432
+
+[2023/02/16 10:23.36_815]  - text to send is ---- call 1-1  seek 3430
+
+[2023/02/16 10:23.36_818]  - 201 CALL OK
+3430
+
+[2023/02/16 10:23.37_104]  - text to send is ---- call 1-1  seek 3428
+
+[2023/02/16 10:23.37_106]  - 201 CALL OK
+3428
+
+[2023/02/16 10:23.37_391]  - text to send is ---- call 1-1  seek 3426
+
+[2023/02/16 10:23.37_394]  - 201 CALL OK
+3426
+
+[2023/02/16 10:23.37_679]  - text to send is ---- call 1-1  seek 3424
+
+[2023/02/16 10:23.37_681]  - 201 CALL OK
+3424
+
+[2023/02/16 10:23.37_951]  - text to send is ---- call 1-1  seek 3422
+
+[2023/02/16 10:23.37_954]  - 201 CALL OK
+3422
+
+[2023/02/16 10:23.38_383]  - text to send is ---- call 1-1  seek 3424
+
+[2023/02/16 10:23.38_387]  - 201 CALL OK
+3424
+
+[2023/02/16 10:23.38_640]  - text to send is ---- call 1-1  seek 3426
+
+[2023/02/16 10:23.38_642]  - 201 CALL OK
+3426
+
+[2023/02/16 10:23.38_895]  - text to send is ---- call 1-1  seek 3428
+
+[2023/02/16 10:23.38_897]  - 201 CALL OK
+3428
+
+[2023/02/16 10:23.39_199]  - text to send is ---- call 1-1  seek 4087
+
+[2023/02/16 10:23.39_203]  - 201 CALL OK
+4087
+
+[2023/02/16 10:23.39_455]  - text to send is ---- call 1-1  seek 4746
+
+[2023/02/16 10:23.39_457]  - 201 CALL OK
+4746
+
+[2023/02/16 10:23.39_679]  - text to send is ---- call 1-1  seek 5405
+
+[2023/02/16 10:23.39_681]  - 201 CALL OK
+5405
+
+[2023/02/16 10:23.41_243]  - ------------------  Application Close -----------------------
+[2023/02/16 10:23.42_025]  - Destroying python info reader class....
+[2023/02/16 10:23.42_026]  - Delete udp remote class.....
+[2023/02/16 10:23.53_772]  - ------------------  Application Start -----------------------
+[2023/02/16 10:23.53_773]  - Engine version is 2.3
+[2023/02/16 10:23.53_774]  - Creating python info reader class....
+[2023/02/16 10:23.53_776]  - Start python caspar info reader
+[2023/02/16 10:23.53_776]  - Python caspar info reader is running
+[2023/02/16 10:23.53_783]  - Serial Remote parameter from INI is 1
+[2023/02/16 10:23.53_788]  - There is already running server with pid 8068
+[2023/02/16 10:23.53_948]  - foreground file change detected  -- /瑣蝸溯檜 4檣蝓_20180224-110431.mxf
+[2023/02/16 10:23.54_287]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/16 10:23.54_289]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/16 10:23.54_290]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/16 10:23.54_290]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/16 10:23.56_289]  - Caspar CG launched with PID 8068
+[2023/02/16 10:23.56_290]  - text to send is ---- Log Level warning
+
+[2023/02/16 10:23.56_301]  - 202 LOG OK
+
+[2023/02/16 10:23.56_397]  - text to send is ---- remove 3 screen
+
+[2023/02/16 10:23.56_399]  - 404 REMOVE FAILED
+
+[2023/02/16 10:23.56_503]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/16 10:23.56_505]  - 202 PLAY OK
+
+[2023/02/16 10:23.56_552]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/16 10:23.56_557]  - 202 PLAY OK
+
+[2023/02/16 10:23.57_286]  - Create udp remote class....
+[2023/02/16 10:23.57_288]  - Run external remote host 
+[2023/02/16 10:23.57_289]  - Run remote host application
+[2023/02/16 10:23.58_063]  - [Preview SDI] button pressed
+[2023/02/16 10:23.58_064]  - media.fullpath = 
+[2023/02/16 10:23.58_064]  - info_caspar.filepath_foreground = f:\capture\瑣蝸溯檜 4檣蝓_20180224-110431.mxf
+[2023/02/16 10:23.58_065]  -  There is difference between caspar pb clip and media loaded clip, analysing media - f:\capture\瑣蝸溯檜 4檣蝓_20180224-110431.mxf
+[2023/02/16 10:23.58_206]  - 
+Update property text with ----------------  
+瑣蝸溯檜 4檣蝓_20180224-110431.mxf
+-----------------------
+Resolution : 1920x1080
+Codec : MPEG Video
+Audio Format : mono-8
+Duration: 4403.833000 (1:13:23;25)
+Total Frame : 131983
+Framerate: 29.970
+StartTC: 11:04:31;20
+ScanType: Interlaced
+[2023/02/16 10:23.58_778]  - run command ---- 
+C:\ahk\BMD_PLAYER_v2\bin\mpv.com --lavfi-complex=[aid1][aid2][aid3][aid4][aid5][aid6][aid7][aid8]amerge=inputs=8[a1];[a1]asplit[as1][as2];[as2]showvolume=r=29.97[vvolume];[vid1]format=pix_fmts=yuv420p[vf];[vf][vvolume]overlay=x=20:y=20[vo];[as1]pan=stereo|c0=c0|c1=c1[ao]    --script="C:\ahk\BMD_PLAYER_v2\mark_inout_file.lua"   --pause --keep-open --force-window=yes --window-scale=0.5 --hr-seek=yes --osd-level=3 --osd-fractions  --sub-align-x=right --sub-pos=20  --sub-paths="f:\temp" "f:\capture\瑣蝸溯檜 4檣蝓_20180224-110431.mxf" --title "Preview play... f:\capture\瑣蝸溯檜 4檣蝓_20180224-110431.mxf"
+[2023/02/16 10:23.58_779]  - MPV launched with PID 6732/ Geometry   Mediapath = f:\capture\瑣蝸溯檜 4檣蝓_20180224-110431.mxf
+[2023/02/16 10:24.01_075]  - Preview Window Closed
+[2023/02/16 10:24.02_479]  - text to send is ---- call 1-1  seek 5705
+
+[2023/02/16 10:24.02_481]  - 201 CALL OK
+5705
+
+[2023/02/16 10:24.03_087]  - text to send is ---- call 1-1  seek 6005
+
+[2023/02/16 10:24.03_090]  - 201 CALL OK
+6005
+
+[2023/02/16 10:24.03_664]  - text to send is ---- call 1-1  seek 6305
+
+[2023/02/16 10:24.03_666]  - 201 CALL OK
+6305
+
+[2023/02/16 10:24.04_128]  - text to send is ---- call 1-1  seek 6605
+
+[2023/02/16 10:24.04_130]  - 201 CALL OK
+6605
+
+[2023/02/16 10:24.04_527]  - text to send is ---- call 1-1  seek 6905
+
+[2023/02/16 10:24.04_529]  - 201 CALL OK
+6905
+
+[2023/02/16 10:24.04_864]  - text to send is ---- call 1-1  seek 7205
+
+[2023/02/16 10:24.04_866]  - 201 CALL OK
+7205
+
+[2023/02/16 10:24.05_151]  - text to send is ---- call 1-1  seek 7505
+
+[2023/02/16 10:24.05_154]  - 201 CALL OK
+7505
+
+[2023/02/16 10:24.05_360]  - text to send is ---- call 1-1  seek 7505
+
+[2023/02/16 10:24.05_362]  - 201 CALL OK
+7505
+
+[2023/02/16 10:24.05_807]  - text to send is ---- call 1-1  seek 7565
+
+[2023/02/16 10:24.05_810]  - 201 CALL OK
+7565
+
+[2023/02/16 10:24.06_303]  - text to send is ---- call 1-1  seek 7625
+
+[2023/02/16 10:24.06_305]  - 201 CALL OK
+7625
+
+[2023/02/16 10:24.06_672]  - text to send is ---- call 1-1  seek 7685
+
+[2023/02/16 10:24.06_674]  - 201 CALL OK
+7685
+
+[2023/02/16 10:24.06_975]  - text to send is ---- call 1-1  seek 7745
+
+[2023/02/16 10:24.06_978]  - 201 CALL OK
+7745
+
+[2023/02/16 10:24.07_247]  - text to send is ---- call 1-1  seek 7805
+
+[2023/02/16 10:24.07_249]  - 201 CALL OK
+7805
+
+[2023/02/16 10:24.07_519]  - text to send is ---- call 1-1  seek 7865
+
+[2023/02/16 10:24.07_521]  - 201 CALL OK
+7865
+
+[2023/02/16 10:24.08_064]  - text to send is ---- call 1-1  seek 7925
+
+[2023/02/16 10:24.08_066]  - 201 CALL OK
+7925
+
+[2023/02/16 10:24.08_447]  - text to send is ---- call 1-1  seek 7985
+
+[2023/02/16 10:24.08_450]  - 201 CALL OK
+7985
+
+[2023/02/16 10:24.08_720]  - text to send is ---- call 1-1  seek 8045
+
+[2023/02/16 10:24.08_721]  - 201 CALL OK
+8045
+
+[2023/02/16 10:24.08_991]  - text to send is ---- call 1-1  seek 8105
+
+[2023/02/16 10:24.08_994]  - 201 CALL OK
+8105
+
+[2023/02/16 10:24.09_408]  - text to send is ---- call 1-1  seek 8045
+
+[2023/02/16 10:24.09_410]  - 201 CALL OK
+8045
+
+[2023/02/16 10:24.09_664]  - text to send is ---- call 1-1  seek 7985
+
+[2023/02/16 10:24.09_666]  - 201 CALL OK
+7985
+
+[2023/02/16 10:24.09_887]  - text to send is ---- call 1-1  seek 7925
+
+[2023/02/16 10:24.09_889]  - 201 CALL OK
+7925
+
+[2023/02/16 10:24.10_128]  - text to send is ---- call 1-1  seek 7865
+
+[2023/02/16 10:24.10_130]  - 201 CALL OK
+7865
+
+[2023/02/16 10:24.10_351]  - text to send is ---- call 1-1  seek 7805
+
+[2023/02/16 10:24.10_354]  - 201 CALL OK
+7805
+
+[2023/02/16 10:24.10_608]  - text to send is ---- call 1-1  seek 7805
+
+[2023/02/16 10:24.10_610]  - 201 CALL OK
+7805
+
+[2023/02/16 10:24.10_847]  - text to send is ---- call 1-1  seek 7745
+
+[2023/02/16 10:24.10_849]  - 201 CALL OK
+7745
+
+[2023/02/16 10:24.11_103]  - text to send is ---- call 1-1  seek 7685
+
+[2023/02/16 10:24.11_105]  - 201 CALL OK
+7685
+
+[2023/02/16 10:24.11_359]  - text to send is ---- call 1-1  seek 7625
+
+[2023/02/16 10:24.11_362]  - 201 CALL OK
+7625
+
+[2023/02/16 10:24.11_648]  - text to send is ---- call 1-1  seek 7625
+
+[2023/02/16 10:24.11_650]  - 201 CALL OK
+7625
+
+[2023/02/16 10:24.12_047]  - text to send is ---- call 1-1  seek 7685
+
+[2023/02/16 10:24.12_049]  - 201 CALL OK
+7685
+
+[2023/02/16 10:24.12_368]  - text to send is ---- call 1-1  seek 7745
+
+[2023/02/16 10:24.12_370]  - 201 CALL OK
+7745
+
+[2023/02/16 10:24.12_639]  - text to send is ---- call 1-1  seek 7805
+
+[2023/02/16 10:24.12_641]  - 201 CALL OK
+7805
+
+[2023/02/16 10:24.13_119]  - text to send is ---- call 1-1  seek 8105
+
+[2023/02/16 10:24.13_121]  - 201 CALL OK
+8105
+
+[2023/02/16 10:24.13_359]  - text to send is ---- call 1-1  seek 8405
+
+[2023/02/16 10:24.13_362]  - 201 CALL OK
+8405
+
+[2023/02/16 10:24.13_567]  - text to send is ---- call 1-1  seek 8705
+
+[2023/02/16 10:24.13_569]  - 201 CALL OK
+8705
+
+[2023/02/16 10:24.13_792]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.13_794]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.13_983]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.13_986]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.14_191]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.14_193]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.14_399]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.14_402]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.14_912]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.14_914]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.15_151]  - text to send is ---- call 1-1  seek 8705
+
+[2023/02/16 10:24.15_153]  - 201 CALL OK
+8705
+
+[2023/02/16 10:24.15_359]  - text to send is ---- call 1-1  seek 8405
+
+[2023/02/16 10:24.15_361]  - 201 CALL OK
+8405
+
+[2023/02/16 10:24.15_567]  - text to send is ---- call 1-1  seek 8105
+
+[2023/02/16 10:24.15_570]  - 201 CALL OK
+8105
+
+[2023/02/16 10:24.15_759]  - text to send is ---- call 1-1  seek 7805
+
+[2023/02/16 10:24.15_762]  - 201 CALL OK
+7805
+
+[2023/02/16 10:24.16_128]  - text to send is ---- call 1-1  seek 8105
+
+[2023/02/16 10:24.16_130]  - 201 CALL OK
+8105
+
+[2023/02/16 10:24.16_335]  - text to send is ---- call 1-1  seek 8405
+
+[2023/02/16 10:24.16_338]  - 201 CALL OK
+8405
+
+[2023/02/16 10:24.16_528]  - text to send is ---- call 1-1  seek 8705
+
+[2023/02/16 10:24.16_530]  - 201 CALL OK
+8705
+
+[2023/02/16 10:24.16_720]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.16_722]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.16_896]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.16_898]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.17_183]  - text to send is ---- call 1-1  seek 9365
+
+[2023/02/16 10:24.17_186]  - 201 CALL OK
+9365
+
+[2023/02/16 10:24.17_424]  - text to send is ---- call 1-1  seek 9425
+
+[2023/02/16 10:24.17_426]  - 201 CALL OK
+9425
+
+[2023/02/16 10:24.17_631]  - text to send is ---- call 1-1  seek 9425
+
+[2023/02/16 10:24.17_633]  - 201 CALL OK
+9425
+
+[2023/02/16 10:24.17_839]  - text to send is ---- call 1-1  seek 9485
+
+[2023/02/16 10:24.17_842]  - 201 CALL OK
+9485
+
+[2023/02/16 10:24.18_080]  - text to send is ---- call 1-1  seek 9485
+
+[2023/02/16 10:24.18_082]  - 201 CALL OK
+9485
+
+[2023/02/16 10:24.18_384]  - text to send is ---- call 1-1  seek 9425
+
+[2023/02/16 10:24.18_386]  - 201 CALL OK
+9425
+
+[2023/02/16 10:24.18_575]  - text to send is ---- call 1-1  seek 9365
+
+[2023/02/16 10:24.18_577]  - 201 CALL OK
+9365
+
+[2023/02/16 10:24.18_784]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.18_786]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.18_976]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.18_978]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.19_359]  - text to send is ---- call 1-1  seek 8945
+
+[2023/02/16 10:24.19_361]  - 201 CALL OK
+8945
+
+[2023/02/16 10:24.19_567]  - text to send is ---- call 1-1  seek 8645
+
+[2023/02/16 10:24.19_569]  - 201 CALL OK
+8645
+
+[2023/02/16 10:24.19_760]  - text to send is ---- call 1-1  seek 8345
+
+[2023/02/16 10:24.19_762]  - 201 CALL OK
+8345
+
+[2023/02/16 10:24.19_952]  - text to send is ---- call 1-1  seek 8045
+
+[2023/02/16 10:24.19_954]  - 201 CALL OK
+8045
+
+[2023/02/16 10:24.20_319]  - text to send is ---- call 1-1  seek 8345
+
+[2023/02/16 10:24.20_321]  - 201 CALL OK
+8345
+
+[2023/02/16 10:24.20_495]  - text to send is ---- call 1-1  seek 8345
+
+[2023/02/16 10:24.20_497]  - 201 CALL OK
+8345
+
+[2023/02/16 10:24.20_703]  - text to send is ---- call 1-1  seek 8645
+
+[2023/02/16 10:24.20_705]  - 201 CALL OK
+8645
+
+[2023/02/16 10:24.20_864]  - text to send is ---- call 1-1  seek 8645
+
+[2023/02/16 10:24.20_865]  - 201 CALL OK
+8645
+
+[2023/02/16 10:24.21_183]  - text to send is ---- call 1-1  seek 8705
+
+[2023/02/16 10:24.21_185]  - 201 CALL OK
+8705
+
+[2023/02/16 10:24.21_423]  - text to send is ---- call 1-1  seek 8765
+
+[2023/02/16 10:24.21_426]  - 201 CALL OK
+8765
+
+[2023/02/16 10:24.21_632]  - text to send is ---- call 1-1  seek 8825
+
+[2023/02/16 10:24.21_633]  - 201 CALL OK
+8825
+
+[2023/02/16 10:24.21_855]  - text to send is ---- call 1-1  seek 8885
+
+[2023/02/16 10:24.21_858]  - 201 CALL OK
+8885
+
+[2023/02/16 10:24.22_079]  - text to send is ---- call 1-1  seek 8885
+
+[2023/02/16 10:24.22_081]  - 201 CALL OK
+8885
+
+[2023/02/16 10:24.22_479]  - text to send is ---- call 1-1  seek 8825
+
+[2023/02/16 10:24.22_481]  - 201 CALL OK
+8825
+
+[2023/02/16 10:24.22_688]  - text to send is ---- call 1-1  seek 8825
+
+[2023/02/16 10:24.22_689]  - 201 CALL OK
+8825
+
+[2023/02/16 10:24.22_880]  - text to send is ---- call 1-1  seek 8765
+
+[2023/02/16 10:24.22_882]  - 201 CALL OK
+8765
+
+[2023/02/16 10:24.23_071]  - text to send is ---- call 1-1  seek 8765
+
+[2023/02/16 10:24.23_073]  - 201 CALL OK
+8765
+
+[2023/02/16 10:24.23_376]  - text to send is ---- call 1-1  seek 9065
+
+[2023/02/16 10:24.23_378]  - 201 CALL OK
+9065
+
+[2023/02/16 10:24.23_583]  - text to send is ---- call 1-1  seek 9365
+
+[2023/02/16 10:24.23_585]  - 201 CALL OK
+9365
+
+[2023/02/16 10:24.23_775]  - text to send is ---- call 1-1  seek 9665
+
+[2023/02/16 10:24.23_777]  - 201 CALL OK
+9665
+
+[2023/02/16 10:24.23_967]  - text to send is ---- call 1-1  seek 9965
+
+[2023/02/16 10:24.23_970]  - 201 CALL OK
+9965
+
+[2023/02/16 10:24.24_223]  - text to send is ---- call 1-1  seek 9665
+
+[2023/02/16 10:24.24_225]  - 201 CALL OK
+9665
+
+[2023/02/16 10:24.24_431]  - text to send is ---- call 1-1  seek 9365
+
+[2023/02/16 10:24.24_433]  - 201 CALL OK
+9365
+
+[2023/02/16 10:24.24_592]  - text to send is ---- call 1-1  seek 9065
+
+[2023/02/16 10:24.24_594]  - 201 CALL OK
+9065
+
+[2023/02/16 10:24.24_768]  - text to send is ---- call 1-1  seek 8765
+
+[2023/02/16 10:24.24_770]  - 201 CALL OK
+8765
+
+[2023/02/16 10:24.25_087]  - text to send is ---- call 1-1  seek 8825
+
+[2023/02/16 10:24.25_090]  - 201 CALL OK
+8825
+
+[2023/02/16 10:24.25_344]  - text to send is ---- call 1-1  seek 8825
+
+[2023/02/16 10:24.25_346]  - 201 CALL OK
+8825
+
+[2023/02/16 10:24.25_551]  - text to send is ---- call 1-1  seek 8885
+
+[2023/02/16 10:24.25_553]  - 201 CALL OK
+8885
+
+[2023/02/16 10:24.25_776]  - text to send is ---- call 1-1  seek 8945
+
+[2023/02/16 10:24.25_779]  - 201 CALL OK
+8945
+
+[2023/02/16 10:24.26_016]  - text to send is ---- call 1-1  seek 8885
+
+[2023/02/16 10:24.26_018]  - 201 CALL OK
+8885
+
+[2023/02/16 10:24.26_191]  - text to send is ---- call 1-1  seek 8825
+
+[2023/02/16 10:24.26_194]  - 201 CALL OK
+8825
+
+[2023/02/16 10:24.26_432]  - text to send is ---- call 1-1  seek 9125
+
+[2023/02/16 10:24.26_434]  - 201 CALL OK
+9125
+
+[2023/02/16 10:24.26_636]  - text to send is ---- call 1-1  seek 9425
+
+[2023/02/16 10:24.26_638]  - 201 CALL OK
+9425
+
+[2023/02/16 10:24.26_847]  - text to send is ---- call 1-1  seek 9485
+
+[2023/02/16 10:24.26_850]  - 201 CALL OK
+9485
+
+[2023/02/16 10:24.27_135]  - text to send is ---- call 1-1  seek 9545
+
+[2023/02/16 10:24.27_137]  - 201 CALL OK
+9545
+
+[2023/02/16 10:24.27_424]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.27_426]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.27_663]  - text to send is ---- call 1-1  seek 9185
+
+[2023/02/16 10:24.27_666]  - 201 CALL OK
+9185
+
+[2023/02/16 10:24.27_919]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.27_922]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.28_159]  - text to send is ---- call 1-1  seek 9485
+
+[2023/02/16 10:24.28_162]  - 201 CALL OK
+9485
+
+[2023/02/16 10:24.28_384]  - text to send is ---- call 1-1  seek 9425
+
+[2023/02/16 10:24.28_386]  - 201 CALL OK
+9425
+
+[2023/02/16 10:24.28_592]  - text to send is ---- call 1-1  seek 9125
+
+[2023/02/16 10:24.28_594]  - 201 CALL OK
+9125
+
+[2023/02/16 10:24.28_831]  - text to send is ---- call 1-1  seek 9185
+
+[2023/02/16 10:24.28_834]  - 201 CALL OK
+9185
+
+[2023/02/16 10:24.29_040]  - text to send is ---- call 1-1  seek 9125
+
+[2023/02/16 10:24.29_042]  - 201 CALL OK
+9125
+
+[2023/02/16 10:24.29_263]  - text to send is ---- call 1-1  seek 9425
+
+[2023/02/16 10:24.29_265]  - 201 CALL OK
+9425
+
+[2023/02/16 10:24.29_472]  - text to send is ---- call 1-1  seek 9485
+
+[2023/02/16 10:24.29_474]  - 201 CALL OK
+9485
+
+[2023/02/16 10:24.29_711]  - text to send is ---- call 1-1  seek 9425
+
+[2023/02/16 10:24.29_714]  - 201 CALL OK
+9425
+
+[2023/02/16 10:24.29_919]  - text to send is ---- call 1-1  seek 9185
+
+[2023/02/16 10:24.29_921]  - 201 CALL OK
+9185
+
+[2023/02/16 10:24.30_127]  - text to send is ---- call 1-1  seek 9725
+
+[2023/02/16 10:24.30_129]  - 201 CALL OK
+9725
+
+[2023/02/16 10:24.30_352]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.30_354]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.30_576]  - text to send is ---- call 1-1  seek 9665
+
+[2023/02/16 10:24.30_578]  - 201 CALL OK
+9665
+
+[2023/02/16 10:24.30_783]  - text to send is ---- call 1-1  seek 8945
+
+[2023/02/16 10:24.30_785]  - 201 CALL OK
+8945
+
+[2023/02/16 10:24.31_040]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.31_041]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.31_279]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.31_281]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.31_520]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.31_522]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.31_775]  - text to send is ---- call 1-1  seek 8945
+
+[2023/02/16 10:24.31_777]  - 201 CALL OK
+8945
+
+[2023/02/16 10:24.32_032]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.32_034]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.32_272]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.32_274]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.32_512]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.32_514]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.32_703]  - text to send is ---- call 1-1  seek 8945
+
+[2023/02/16 10:24.32_705]  - 201 CALL OK
+8945
+
+[2023/02/16 10:24.32_975]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.32_978]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.33_216]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.33_218]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.33_471]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.33_473]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.33_680]  - text to send is ---- call 1-1  seek 8945
+
+[2023/02/16 10:24.33_682]  - 201 CALL OK
+8945
+
+[2023/02/16 10:24.33_935]  - text to send is ---- call 1-1  seek 9245
+
+[2023/02/16 10:24.33_937]  - 201 CALL OK
+9245
+
+[2023/02/16 10:24.34_160]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.34_162]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.34_416]  - text to send is ---- call 1-1  seek 9185
+
+[2023/02/16 10:24.34_418]  - 201 CALL OK
+9185
+
+[2023/02/16 10:24.34_624]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.34_626]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.34_863]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.34_866]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.35_087]  - text to send is ---- call 1-1  seek 9365
+
+[2023/02/16 10:24.35_089]  - 201 CALL OK
+9365
+
+[2023/02/16 10:24.35_344]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.35_346]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.35_535]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.35_537]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.35_807]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.35_809]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.36_048]  - text to send is ---- call 1-1  seek 9365
+
+[2023/02/16 10:24.36_050]  - 201 CALL OK
+9365
+
+[2023/02/16 10:24.36_287]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.36_289]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.36_528]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.36_530]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.36_799]  - text to send is ---- call 1-1  seek 9305
+
+[2023/02/16 10:24.36_802]  - 201 CALL OK
+9305
+
+[2023/02/16 10:24.37_023]  - text to send is ---- call 1-1  seek 9065
+
+[2023/02/16 10:24.37_026]  - 201 CALL OK
+9065
+
+[2023/02/16 10:24.37_296]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.37_297]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.37_520]  - text to send is ---- call 1-1  seek 8705
+
+[2023/02/16 10:24.37_522]  - 201 CALL OK
+8705
+
+[2023/02/16 10:24.37_791]  - text to send is ---- call 1-1  seek 9005
+
+[2023/02/16 10:24.37_793]  - 201 CALL OK
+9005
+
+[2023/02/16 10:24.38_031]  - text to send is ---- call 1-1  seek 8765
+
+[2023/02/16 10:24.38_033]  - 201 CALL OK
+8765
+
+[2023/02/16 10:24.38_304]  - text to send is ---- call 1-1  seek 8705
+
+[2023/02/16 10:24.38_306]  - 201 CALL OK
+8705
+
+[2023/02/16 10:24.38_543]  - text to send is ---- call 1-1  seek 8405
+
+[2023/02/16 10:24.38_548]  - 201 CALL OK
+8405
+
+[2023/02/16 10:24.38_783]  - text to send is ---- call 1-1  seek 8705
+
+[2023/02/16 10:24.38_785]  - 201 CALL OK
+8705
+
+[2023/02/16 10:24.38_991]  - text to send is ---- call 1-1  seek 8465
+
+[2023/02/16 10:24.38_993]  - 201 CALL OK
+8465
+
+[2023/02/16 10:24.39_232]  - text to send is ---- call 1-1  seek 8645
+
+[2023/02/16 10:24.39_234]  - 201 CALL OK
+8645
+
+[2023/02/16 10:24.40_913]  - ------------------  Application Close -----------------------
+[2023/02/16 10:24.41_768]  - text to send is ---- clear 1-1
+
+[2023/02/16 10:24.41_770]  - 202 CLEAR OK
+
+[2023/02/16 10:24.41_973]  - text to send is ---- klll
+
+[2023/02/16 10:24.41_975]  - 400 ERROR
+klll
+
+[2023/02/16 10:24.42_106]  - There is Engine process, Try to close it 
+[2023/02/16 10:24.43_232]  - Destroying python info reader class....
+[2023/02/16 10:24.43_232]  - Delete udp remote class.....
+[2023/02/16 10:29.02_203]  - ------------------  Application Start -----------------------
+[2023/02/16 10:29.02_204]  - Engine version is 2.3
+[2023/02/16 10:29.02_204]  - Creating python info reader class....
+[2023/02/16 10:29.02_207]  - Start python caspar info reader
+[2023/02/16 10:29.02_218]  - Serial Remote parameter from INI is 1
+[2023/02/16 10:29.02_218]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/02/16 10:29.02_396]  - Engine pid is 11044
+[2023/02/16 10:29.02_784]  - foreground file change detected  -- 
+[2023/02/16 10:29.02_904]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/16 10:29.02_905]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/16 10:29.02_906]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/16 10:29.02_906]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/16 10:29.04_898]  - Caspar CG launched with PID 11044
+[2023/02/16 10:29.04_899]  - text to send is ---- Log Level warning
+
+[2023/02/16 10:29.04_916]  - 202 LOG OK
+
+[2023/02/16 10:29.05_003]  - text to send is ---- remove 3 screen
+
+[2023/02/16 10:29.05_006]  - 202 REMOVE OK
+
+[2023/02/16 10:29.05_117]  - text to send is ---- play 1-1 empty
+
+[2023/02/16 10:29.05_121]  - 202 PLAY OK
+
+[2023/02/16 10:29.05_159]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/16 10:29.05_161]  - 202 PLAY OK
+
+[2023/02/16 10:29.05_215]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/16 10:29.05_280]  - 202 PLAY OK
+
+[2023/02/16 10:29.05_896]  - Create udp remote class....
+[2023/02/16 10:29.05_897]  - Run external remote host 
+[2023/02/16 10:29.05_897]  - Run remote host application
+[2023/02/16 10:29.06_895]  - ------------------  Application Close -----------------------
+[2023/02/16 10:29.08_309]  - text to send is ---- clear 1-1
+
+[2023/02/16 10:29.08_310]  - 202 CLEAR OK
+
+[2023/02/16 10:29.08_510]  - text to send is ---- klll
+
+[2023/02/16 10:29.08_511]  - 400 ERROR
+klll
+
+[2023/02/16 10:29.08_634]  - There is Engine process, Try to close it 
+[2023/02/16 10:29.09_740]  - Destroying python info reader class....
+[2023/02/16 10:29.09_741]  - Delete udp remote class.....
+[2023/02/17 10:16.15_093]  - ------------------  Application Start -----------------------
+[2023/02/17 10:16.15_093]  - Engine version is 2.3
+[2023/02/17 10:16.15_093]  - Creating python info reader class....
+[2023/02/17 10:16.15_109]  - Start python caspar info reader
+[2023/02/17 10:16.15_312]  - Serial Remote parameter from INI is 1
+[2023/02/17 10:16.15_359]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/02/17 10:16.15_827]  - Engine pid is 4532
+[2023/02/17 10:16.16_321]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/17 10:16.16_326]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/17 10:16.16_326]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/17 10:16.16_327]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/17 10:16.17_334]  - ;[as1]pan=stereo|c0=c4|c1=c1[ao]
+[2023/02/17 10:16.18_323]  - Caspar CG launched with PID 4532
+[2023/02/17 10:16.18_323]  - text to send is ---- Log Level warning
+
+[2023/02/17 10:16.18_334]  - 202 LOG OK
+
+[2023/02/17 10:16.18_428]  - text to send is ---- remove 3 screen
+
+[2023/02/17 10:16.18_430]  - 202 REMOVE OK
+
+[2023/02/17 10:16.18_511]  - ;[as1]pan=stereo|c0=c4|c1=c5[ao]
+[2023/02/17 10:16.18_534]  - text to send is ---- play 1-1 empty
+
+[2023/02/17 10:16.18_550]  - 202 PLAY OK
+
+[2023/02/17 10:16.18_581]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/17 10:16.18_582]  - 202 PLAY OK
+
+[2023/02/17 10:16.18_628]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/17 10:16.18_686]  - 202 PLAY OK
+
+[2023/02/17 10:16.19_317]  - Create udp remote class....
+[2023/02/17 10:16.19_318]  - Run external remote host 
+[2023/02/17 10:16.19_318]  - Run remote host application
+[2023/02/17 10:16.19_674]  - foreground file change detected  -- 
+[2023/02/17 10:16.23_803]  - ------------------  Application Close -----------------------
+[2023/02/17 10:16.24_957]  - text to send is ---- clear 1-1
+
+[2023/02/17 10:16.24_958]  - 202 CLEAR OK
+
+[2023/02/17 10:16.25_159]  - text to send is ---- klll
+
+[2023/02/17 10:16.25_161]  - 400 ERROR
+klll
+
+[2023/02/17 10:16.25_285]  - There is Engine process, Try to close it 
+[2023/02/17 10:16.26_401]  - Destroying python info reader class....
+[2023/02/17 10:16.26_401]  - Delete udp remote class.....
+[2023/02/17 14:01.26_903]  - ------------------  Application Start -----------------------
+[2023/02/17 14:01.26_903]  - Engine version is 2.3
+[2023/02/17 14:01.26_903]  - Creating python info reader class....
+[2023/02/17 14:01.26_919]  - Start python caspar info reader
+[2023/02/17 14:01.26_919]  - Serial Remote parameter from INI is 1
+[2023/02/17 14:01.26_934]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/02/17 14:01.27_099]  - Engine pid is 12676
+[2023/02/17 14:01.27_489]  - foreground file change detected  -- 
+[2023/02/17 14:01.27_602]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/17 14:01.27_603]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/17 14:01.27_603]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/17 14:01.27_604]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/17 14:01.29_602]  - Caspar CG launched with PID 12676
+[2023/02/17 14:01.29_603]  - text to send is ---- Log Level warning
+
+[2023/02/17 14:01.29_613]  - 202 LOG OK
+
+[2023/02/17 14:01.29_712]  - text to send is ---- remove 3 screen
+
+[2023/02/17 14:01.29_714]  - 202 REMOVE OK
+
+[2023/02/17 14:01.29_822]  - text to send is ---- play 1-1 empty
+
+[2023/02/17 14:01.29_825]  - 202 PLAY OK
+
+[2023/02/17 14:01.29_864]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/17 14:01.29_865]  - 202 PLAY OK
+
+[2023/02/17 14:01.29_911]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/17 14:01.29_965]  - 202 PLAY OK
+
+[2023/02/17 14:01.30_605]  - Create udp remote class....
+[2023/02/17 14:01.30_606]  - Run external remote host 
+[2023/02/17 14:01.30_607]  - Run remote host application
+[2023/02/17 14:01.31_115]  - [MEDIAFOLDER] button pressed
+[2023/02/17 14:01.36_108]  - 
+Update property text with ----------------  
+VTR1_20180212-142911.mxf
+-----------------------
+Resolution : 1920x1080
+Codec : MPEG Video
+Audio Format : mono-8
+Duration: 3316.080000 (0:55:16;03)
+Total Frame : 99383
+Framerate: 29.970
+StartTC: 14:29:11;23
+ScanType: Interlaced
+[2023/02/17 14:01.37_866]  - Live TC Found... Create srt file....
+[2023/02/17 14:01.38_480]  - run command ---- 
+C:\ahk\BMD_PLAYER_v2\bin\mpv.com --lavfi-complex=[aid1][aid2][aid3][aid4][aid5][aid6][aid7][aid8]amerge=inputs=8[a1];[a1]asplit[as1][as2];[as2]showvolume=r=29.97[vvolume];[vid1]format=pix_fmts=yuv420p[vf];[vf][vvolume]overlay=x=20:y=20[vo];[as1]pan=stereo|c0=c0|c1=c1[ao]    --script="C:\ahk\BMD_PLAYER_v2\mark_inout_file.lua"   --pause --keep-open --force-window=yes --window-scale=0.5 --hr-seek=yes --osd-level=3 --osd-fractions  --sub-align-x=right --sub-pos=20  --sub-paths="f:\temp" "F:\capture\VTR1_20180212-142911.mxf" --title "Preview play... F:\capture\VTR1_20180212-142911.mxf"
+[2023/02/17 14:01.38_480]  - MPV launched with PID 12992/ Geometry   Mediapath = F:\capture\VTR1_20180212-142911.mxf
+[2023/02/17 14:01.42_172]  - [spacebar] button pressed while preview play
+[2023/02/17 14:01.47_997]  - [spacebar] button pressed while preview play
+[2023/02/17 14:01.48_428]  - [spacebar] button pressed while preview play
+[2023/02/17 14:01.51_086]  - Preview Window Closed
+[2023/02/17 14:02.13_746]  - [MEDIAFOLDER] button pressed
+[2023/02/17 14:02.21_960]  - 
+Update property text with ----------------  
+IBC MCR PGM_20180211-154600.mxf
+-----------------------
+Resolution : 1920x1080
+Codec : MPEG Video
+Audio Format : mono-8
+Duration: 3591.822000 (0:59:51;25)
+Total Frame : 107647
+Framerate: 29.970
+StartTC: 15:46:00;06
+ScanType: Interlaced
+[2023/02/17 14:02.22_948]  - Live TC Found... Create srt file....
+[2023/02/17 14:02.22_974]  - run command ---- 
+C:\ahk\BMD_PLAYER_v2\bin\mpv.com --lavfi-complex=[aid1][aid2][aid3][aid4][aid5][aid6][aid7][aid8]amerge=inputs=8[a1];[a1]asplit[as1][as2];[as2]showvolume=r=29.97[vvolume];[vid1]format=pix_fmts=yuv420p[vf];[vf][vvolume]overlay=x=20:y=20[vo];[as1]pan=stereo|c0=c0|c1=c1[ao]  --geometry=334:269  --script="C:\ahk\BMD_PLAYER_v2\mark_inout_file.lua"   --pause --keep-open --force-window=yes --window-scale=0.5 --hr-seek=yes --osd-level=3 --osd-fractions  --sub-align-x=right --sub-pos=20  --sub-paths="f:\temp" "F:\capture\IBC MCR PGM_20180211-154600.mxf" --title "Preview play... F:\capture\IBC MCR PGM_20180211-154600.mxf"
+[2023/02/17 14:02.22_974]  - MPV launched with PID 11504/ Geometry --geometry=334:269  Mediapath = F:\capture\IBC MCR PGM_20180211-154600.mxf
+[2023/02/17 14:02.26_620]  - [spacebar] button pressed while preview play
+[2023/02/17 14:02.34_664]  - Preview Window Closed
+[2023/02/17 14:02.36_332]  - ------------------  Application Close -----------------------
+[2023/02/17 14:02.37_550]  - text to send is ---- clear 1-1
+
+[2023/02/17 14:02.37_552]  - 202 CLEAR OK
+
+[2023/02/17 14:02.37_759]  - text to send is ---- klll
+
+[2023/02/17 14:02.37_761]  - 400 ERROR
+klll
+
+[2023/02/17 14:02.37_887]  - There is Engine process, Try to close it 
+[2023/02/17 14:02.38_993]  - Destroying python info reader class....
+[2023/02/17 14:02.38_993]  - Delete udp remote class.....
+[2023/02/17 14:03.32_826]  - ------------------  Application Start -----------------------
+[2023/02/17 14:03.32_842]  - Engine version is 2.3
+[2023/02/17 14:03.32_842]  - Creating python info reader class....
+[2023/02/17 14:03.32_842]  - Start python caspar info reader
+[2023/02/17 14:03.32_842]  - Serial Remote parameter from INI is 1
+[2023/02/17 14:03.32_857]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/02/17 14:03.33_028]  - Engine pid is 12696
+[2023/02/17 14:03.33_364]  - foreground file change detected  -- 
+[2023/02/17 14:03.33_524]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/17 14:03.33_525]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/17 14:03.33_526]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/17 14:03.33_526]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/17 14:03.34_965]  - [MEDIAFOLDER] button pressed
+[2023/02/17 14:03.35_527]  - Caspar CG launched with PID 12696
+[2023/02/17 14:03.35_528]  - text to send is ---- Log Level warning
+
+[2023/02/17 14:03.35_537]  - 202 LOG OK
+
+[2023/02/17 14:03.35_628]  - text to send is ---- remove 3 screen
+
+[2023/02/17 14:03.35_630]  - 202 REMOVE OK
+
+[2023/02/17 14:03.35_746]  - text to send is ---- play 1-1 empty
+
+[2023/02/17 14:03.35_750]  - 202 PLAY OK
+
+[2023/02/17 14:03.35_787]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/17 14:03.35_788]  - 202 PLAY OK
+
+[2023/02/17 14:03.35_831]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/17 14:03.35_882]  - 202 PLAY OK
+
+[2023/02/17 14:03.36_652]  - Create udp remote class....
+[2023/02/17 14:03.36_653]  - Run external remote host 
+[2023/02/17 14:03.36_653]  - Run remote host application
+[2023/02/17 14:03.36_759]  - 
+Update property text with ----------------  
+IBC MCR PGM_20180211-154600.mxf
+-----------------------
+Resolution : 1920x1080
+Codec : MPEG Video
+Audio Format : mono-8
+Duration: 3591.822000 (0:59:51;25)
+Total Frame : 107647
+Framerate: 29.970
+StartTC: 15:46:00;06
+ScanType: Interlaced
+[2023/02/17 14:03.38_071]  - Live TC Found... Create srt file....
+[2023/02/17 14:03.38_098]  - run command ---- 
+C:\ahk\BMD_PLAYER_v2\bin\mpv.com --lavfi-complex=[aid1][aid2][aid3][aid4][aid5][aid6][aid7][aid8]amerge=inputs=8[a1];[a1]asplit[as1][as2];[as2]showvolume=r=29.97[vvolume];[vid1]format=pix_fmts=yuv420p[vf];[vf][vvolume]overlay=x=20:y=20[vo];[as1]pan=stereo|c0=c0|c1=c1[ao]    --script="C:\ahk\BMD_PLAYER_v2\mark_inout_file.lua"   --pause --keep-open --force-window=yes --window-scale=0.5 --hr-seek=yes --osd-level=3 --osd-fractions  --sub-align-x=right --sub-pos=20  --sub-paths="f:\temp" "F:\capture\IBC MCR PGM_20180211-154600.mxf" --title "Preview play... F:\capture\IBC MCR PGM_20180211-154600.mxf"
+[2023/02/17 14:03.38_099]  - MPV launched with PID 7872/ Geometry   Mediapath = F:\capture\IBC MCR PGM_20180211-154600.mxf
+[2023/02/17 14:03.47_587]  - Preview Window Closed
+[2023/02/17 14:03.49_934]  - ------------------  Application Close -----------------------
+[2023/02/17 14:03.50_918]  - text to send is ---- clear 1-1
+
+[2023/02/17 14:03.50_919]  - 202 CLEAR OK
+
+[2023/02/17 14:03.51_123]  - text to send is ---- klll
+
+[2023/02/17 14:03.51_124]  - 400 ERROR
+klll
+
+[2023/02/17 14:03.51_240]  - There is Engine process, Try to close it 
+[2023/02/17 14:03.52_377]  - Destroying python info reader class....
+[2023/02/17 14:03.52_377]  - Delete udp remote class.....
+[2023/02/17 14:05.04_683]  - ------------------  Application Start -----------------------
+[2023/02/17 14:05.04_683]  - Engine version is 2.3
+[2023/02/17 14:05.04_683]  - Creating python info reader class....
+[2023/02/17 14:05.04_683]  - Start python caspar info reader
+[2023/02/17 14:05.04_683]  - Serial Remote parameter from INI is 1
+[2023/02/17 14:05.04_699]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/02/17 14:05.04_862]  - Engine pid is 13144
+[2023/02/17 14:05.05_207]  - foreground file change detected  -- 
+[2023/02/17 14:05.05_364]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/02/17 14:05.05_365]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/02/17 14:05.05_366]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/17 14:05.05_366]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/02/17 14:05.06_212]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/17 14:05.06_213]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/02/17 14:05.07_366]  - Caspar CG launched with PID 13144
+[2023/02/17 14:05.07_367]  - text to send is ---- Log Level warning
+
+[2023/02/17 14:05.07_387]  - 202 LOG OK
+
+[2023/02/17 14:05.07_473]  - text to send is ---- remove 3 screen
+
+[2023/02/17 14:05.07_475]  - 202 REMOVE OK
+
+[2023/02/17 14:05.07_585]  - text to send is ---- play 1-1 empty
+
+[2023/02/17 14:05.07_589]  - 202 PLAY OK
+
+[2023/02/17 14:05.07_638]  - text to send is ---- play 2-1 route://1-1
+
+[2023/02/17 14:05.07_640]  - 202 PLAY OK
+
+[2023/02/17 14:05.07_684]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/02/17 14:05.07_743]  - 202 PLAY OK
+
+[2023/02/17 14:05.07_880]  - ;[as1]pan=stereo|c0=c0+c2|c1=c1[ao]
+[2023/02/17 14:05.08_493]  - Create udp remote class....
+[2023/02/17 14:05.08_494]  - Run external remote host 
+[2023/02/17 14:05.08_494]  - Run remote host application
+[2023/02/17 14:05.08_644]  - ;[as1]pan=stereo|c0=c0+c2|c1=c1[ao]
+[2023/02/17 14:05.10_266]  - ;[as1]pan=stereo|c0=c0+c2|c1=c1+c3[ao]
+[2023/02/17 14:05.11_533]  - [MEDIAFOLDER] button pressed
+[2023/02/17 14:05.13_200]  - 
+Update property text with ----------------  
+IBC MCR PGM_20180211-154600.mxf
+-----------------------
+Resolution : 1920x1080
+Codec : MPEG Video
+Audio Format : mono-8
+Duration: 3591.822000 (0:59:51;25)
+Total Frame : 107647
+Framerate: 29.970
+StartTC: 15:46:00;06
+ScanType: Interlaced
+[2023/02/17 14:05.14_709]  - Live TC Found... Create srt file....
+[2023/02/17 14:05.14_734]  - run command ---- 
+C:\ahk\BMD_PLAYER_v2\bin\mpv.com --lavfi-complex=[aid1][aid2][aid3][aid4][aid5][aid6][aid7][aid8]amerge=inputs=8[a1];[a1]asplit[as1][as2];[as2]showvolume=r=29.97[vvolume];[vid1]format=pix_fmts=yuv420p[vf];[vf][vvolume]overlay=x=20:y=20[vo];[as1]pan=stereo|c0=c0+c2|c1=c1+c3[ao]    --script="C:\ahk\BMD_PLAYER_v2\mark_inout_file.lua"   --pause --keep-open --force-window=yes --window-scale=0.5 --hr-seek=yes --osd-level=3 --osd-fractions  --sub-align-x=right --sub-pos=20  --sub-paths="f:\temp" "F:\capture\IBC MCR PGM_20180211-154600.mxf" --title "Preview play... F:\capture\IBC MCR PGM_20180211-154600.mxf"
+[2023/02/17 14:05.14_734]  - MPV launched with PID 12376/ Geometry   Mediapath = F:\capture\IBC MCR PGM_20180211-154600.mxf
+[2023/02/17 14:05.15_805]  - [spacebar] button pressed while preview play
+[2023/02/17 14:05.16_605]  - [spacebar] button pressed while preview play
+[2023/02/17 14:05.16_861]  - [spacebar] button pressed while preview play
+[2023/02/17 14:05.17_197]  - [spacebar] button pressed while preview play
+[2023/02/17 14:05.17_404]  - [spacebar] button pressed while preview play
+[2023/02/17 14:05.17_731]  - [spacebar] button pressed while preview play
+[2023/02/17 14:05.18_274]  - Preview Window Closed
+[2023/02/17 14:05.48_925]  - ------------------  Application Close -----------------------
+[2023/02/17 14:05.50_380]  - text to send is ---- clear 1-1
+
+[2023/02/17 14:05.50_382]  - 202 CLEAR OK
+
+[2023/02/17 14:05.50_585]  - text to send is ---- klll
+
+[2023/02/17 14:05.50_587]  - 400 ERROR
+klll
+
+[2023/02/17 14:05.50_706]  - There is Engine process, Try to close it 
+[2023/02/17 14:05.51_845]  - Destroying python info reader class....
+[2023/02/17 14:05.51_845]  - Delete udp remote class.....
+[2023/07/10 14:12.12_438]  - ------------------  Application Start -----------------------
+[2023/07/10 14:12.12_454]  - Engine version is 2.3
+[2023/07/10 14:12.12_470]  - Creating python info reader class....
+[2023/07/10 14:12.12_470]  - Start python caspar info reader
+[2023/07/10 14:12.12_688]  - Serial Remote parameter from INI is 1
+[2023/07/10 14:12.12_751]  - run engine with parameter C:\casparcg-master-2.3.3-SBS\casparcg.exe 
+      working dir is C:\casparcg-master-2.3.3-SBS
+     Error Level is 0
+[2023/07/10 14:12.13_157]  - Engine pid is 6156
+[2023/07/10 14:12.13_663]  - Creating commercial object .....   medianame/in/out point is  /  / 
+[2023/07/10 14:12.13_668]  - Commercial object  --->>  Source is TS-10   Duration is 4500 bandtype is 
+[2023/07/10 14:12.13_672]  - ;[as1]pan=stereo|c0=c0|c1=c1[ao]
+[2023/07/10 14:12.13_679]  - auto load / auto add / dissolve / bgload  = 0  /  0  /  0  /  0
+[2023/07/10 14:12.14_445]  - [MEDIAFOLDER] button pressed
+[2023/07/10 14:12.15_657]  - Caspar CG launched with PID 6156
+[2023/07/10 14:12.15_657]  - text to send is ---- Log Level warning
+
+[2023/07/10 14:12.15_678]  - 202 LOG OK
+
+[2023/07/10 14:12.15_770]  - text to send is ---- remove 3 screen
+
+[2023/07/10 14:12.15_774]  - 202 REMOVE OK
+
+[2023/07/10 14:12.15_879]  - text to send is ---- play 1-1 empty
+
+[2023/07/10 14:12.15_904]  - 202 PLAY OK
+
+[2023/07/10 14:12.15_931]  - text to send is ---- play 2-1 route://1-1
+
+[2023/07/10 14:12.15_934]  - 202 PLAY OK
+
+[2023/07/10 14:12.15_971]  - text to send is ---- play 2-2 [html] http://localhost/tc1_ts6.html
+
+[2023/07/10 14:12.16_178]  - 202 PLAY OK
+
+[2023/07/10 14:12.16_673]  - Create udp remote class....
+[2023/07/10 14:12.16_673]  - Run external remote host 
+[2023/07/10 14:12.16_683]  - Run remote host application
+[2023/07/10 14:12.17_017]  - foreground file change detected  -- 
+[2023/07/10 14:15.02_315]  - 
+Update property text with ----------------  
+outputfile_sample1_720p.mp4
+-----------------------
+Resolution : 1280x720
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 94.628000 (0:01:34;18)
+Total Frame : 2836
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.02_317]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4 ]
+[2023/07/10 14:15.02_327]  - Add list Button Pressed
+[2023/07/10 14:15.02_338]  - Add Playlist at last line
+[2023/07/10 14:15.02_382]  - Adding -- [1 - /proxy_test/HD價Ы/outputfile_sample1_720p - 00:00:00.000 - 00:01:34.628]
+[2023/07/10 14:15.02_490]  - 
+Update property text with ----------------  
+outputfile_sample2_720p.mp4
+-----------------------
+Resolution : 1280x720
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 95.596000 (0:01:35;17)
+Total Frame : 2865
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.02_491]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\HD價Ы\outputfile_sample2_720p.mp4 ]
+[2023/07/10 14:15.02_503]  - Add list Button Pressed
+[2023/07/10 14:15.02_510]  - Add Playlist at last line
+[2023/07/10 14:15.02_523]  - Adding -- [2 - /proxy_test/HD價Ы/outputfile_sample2_720p - 00:00:00.000 - 00:01:35.596]
+[2023/07/10 14:15.02_660]  - 
+Update property text with ----------------  
+outputfile_sample3_720p.mp4
+-----------------------
+Resolution : 1280x720
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 85.986000 (0:01:25;29)
+Total Frame : 2577
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.02_661]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\HD價Ы\outputfile_sample3_720p.mp4 ]
+[2023/07/10 14:15.02_674]  - Add list Button Pressed
+[2023/07/10 14:15.02_680]  - Add Playlist at last line
+[2023/07/10 14:15.02_692]  - Adding -- [3 - /proxy_test/HD價Ы/outputfile_sample3_720p - 00:00:00.000 - 00:01:25.986]
+[2023/07/10 14:15.02_765]  - 
+Update property text with ----------------  
+outputfile_sample4_720p.mp4
+-----------------------
+Resolution : 1280x720
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 233.167000 (0:03:53;04)
+Total Frame : 6988
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.02_766]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\HD價Ы\outputfile_sample4_720p.mp4 ]
+[2023/07/10 14:15.02_775]  - Add list Button Pressed
+[2023/07/10 14:15.02_786]  - Add Playlist at last line
+[2023/07/10 14:15.02_796]  - Adding -- [4 - /proxy_test/HD價Ы/outputfile_sample4_720p - 00:00:00.000 - 00:03:53.167]
+[2023/07/10 14:15.02_879]  - 
+Update property text with ----------------  
+outputfile_sample5_720p.mp4
+-----------------------
+Resolution : 1280x720
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 91.091000 (0:01:31;02)
+Total Frame : 2730
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.02_880]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\HD價Ы\outputfile_sample5_720p.mp4 ]
+[2023/07/10 14:15.02_890]  - Add list Button Pressed
+[2023/07/10 14:15.02_900]  - Add Playlist at last line
+[2023/07/10 14:15.02_910]  - Adding -- [5 - /proxy_test/HD價Ы/outputfile_sample5_720p - 00:00:00.000 - 00:01:31.091]
+[2023/07/10 14:15.03_016]  - 
+Update property text with ----------------  
+outputfile_sample6_720p.mp4
+-----------------------
+Resolution : 1280x720
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 130.531000 (0:02:10;16)
+Total Frame : 3912
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.03_017]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\HD價Ы\outputfile_sample6_720p.mp4 ]
+[2023/07/10 14:15.03_028]  - Add list Button Pressed
+[2023/07/10 14:15.03_039]  - Add Playlist at last line
+[2023/07/10 14:15.03_049]  - Adding -- [6 - /proxy_test/HD價Ы/outputfile_sample6_720p - 00:00:00.000 - 00:02:10.531]
+[2023/07/10 14:15.21_259]  - Load LV clip by Click or Drag,  LV line number 1
+[2023/07/10 14:15.21_260]  - Get Media from LV list index by click = 1
+[2023/07/10 14:15.21_272]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:15.21_330]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:15.22_135]  - [LOAD] Button Pressed. current timerem is 86400.0
+[2023/07/10 14:15.22_135]  - --caspar.medianame-- at load time is = /proxy_test/HD價Ы/outputfile_sample1_720p
+[2023/07/10 14:15.22_147]  - text to send is ---- loadbg 1-1 "/proxy_test/HD價Ы/outputfile_sample1_720p" SEEK 0 LENGTH 5672 
+
+[2023/07/10 14:15.22_163]  - 202 LOADBG OK
+
+[2023/07/10 14:15.22_180]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:15.22_180]  - Finish load command execution
+[2023/07/10 14:15.22_189]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:15.22_238]  - foreground file change detected  -- /proxy_test/HD價Ы/outputfile_sample1_720p.mp4
+[2023/07/10 14:15.33_782]  - [PLAY] Button Pressed. current timerem is 94.62786865234375
+[2023/07/10 14:15.33_782]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:15.33_794]  - [play command] PLAY 1-1
+[2023/07/10 14:15.33_803]  - 202 PLAY OK
+
+[2023/07/10 14:15.33_812]  - pb index is 1
+[2023/07/10 14:15.55_097]  - 
+Update property text with ----------------  
+sample1_sd.mp4
+-----------------------
+Resolution : 720x480
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 94.628000 (0:01:34;18)
+Total Frame : 2836
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.55_098]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\SD價Ы\sample1_sd.mp4 ]
+[2023/07/10 14:15.55_108]  - Add list Button Pressed
+[2023/07/10 14:15.55_119]  - New playback index is 1
+[2023/07/10 14:15.55_124]  - Insert Playlist at line number 1
+[2023/07/10 14:15.55_153]  - Adding -- [7 - /proxy_test/SD價Ы/sample1_sd - 00:00:00.000 - 00:01:34.628]
+[2023/07/10 14:15.55_216]  - 
+Update property text with ----------------  
+sample2_sd.mp4
+-----------------------
+Resolution : 720x480
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 95.596000 (0:01:35;17)
+Total Frame : 2865
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.55_218]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\SD價Ы\sample2_sd.mp4 ]
+[2023/07/10 14:15.55_228]  - Add list Button Pressed
+[2023/07/10 14:15.55_236]  - New playback index is 1
+[2023/07/10 14:15.55_246]  - Insert Playlist at line number 1
+[2023/07/10 14:15.55_263]  - Adding -- [8 - /proxy_test/SD價Ы/sample2_sd - 00:00:00.000 - 00:01:35.596]
+[2023/07/10 14:15.55_336]  - 
+Update property text with ----------------  
+sample3_sd.mp4
+-----------------------
+Resolution : 720x480
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 85.986000 (0:01:25;29)
+Total Frame : 2577
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.55_337]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\SD價Ы\sample3_sd.mp4 ]
+[2023/07/10 14:15.55_350]  - Add list Button Pressed
+[2023/07/10 14:15.55_356]  - New playback index is 1
+[2023/07/10 14:15.55_369]  - Insert Playlist at line number 1
+[2023/07/10 14:15.55_380]  - Adding -- [9 - /proxy_test/SD價Ы/sample3_sd - 00:00:00.000 - 00:01:25.986]
+[2023/07/10 14:15.55_424]  - 
+Update property text with ----------------  
+sample4_sd.mp4
+-----------------------
+Resolution : 720x480
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 233.167000 (0:03:53;04)
+Total Frame : 6988
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.55_425]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\SD價Ы\sample4_sd.mp4 ]
+[2023/07/10 14:15.55_436]  - Add list Button Pressed
+[2023/07/10 14:15.55_447]  - New playback index is 1
+[2023/07/10 14:15.55_460]  - Insert Playlist at line number 1
+[2023/07/10 14:15.55_467]  - Adding -- [10 - /proxy_test/SD價Ы/sample4_sd - 00:00:00.000 - 00:03:53.167]
+[2023/07/10 14:15.55_515]  - 
+Update property text with ----------------  
+sample5_sd.mp4
+-----------------------
+Resolution : 720x480
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 91.091000 (0:01:31;02)
+Total Frame : 2730
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.55_517]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\SD價Ы\sample5_sd.mp4 ]
+[2023/07/10 14:15.55_526]  - Add list Button Pressed
+[2023/07/10 14:15.55_535]  - New playback index is 1
+[2023/07/10 14:15.55_543]  - Insert Playlist at line number 1
+[2023/07/10 14:15.55_560]  - Adding -- [11 - /proxy_test/SD價Ы/sample5_sd - 00:00:00.000 - 00:01:31.091]
+[2023/07/10 14:15.55_626]  - 
+Update property text with ----------------  
+sample6_sd.mp4
+-----------------------
+Resolution : 720x480
+Codec : AVC
+Audio Format : 2 channels-2
+Duration: 130.531000 (0:02:10;16)
+Total Frame : 3912
+Framerate: 29.970
+StartTC: 00:00:00;00
+ScanType: Progressive
+[2023/07/10 14:15.55_627]  - [multiple file drop] or [auto add] is detected, add file to playlist  [ F:\capture\proxy_test\SD價Ы\sample6_sd.mp4 ]
+[2023/07/10 14:15.55_638]  - Add list Button Pressed
+[2023/07/10 14:15.55_648]  - New playback index is 1
+[2023/07/10 14:15.55_655]  - Insert Playlist at line number 1
+[2023/07/10 14:15.55_675]  - Adding -- [12 - /proxy_test/SD價Ы/sample6_sd - 00:00:00.000 - 00:02:10.531]
+[2023/07/10 14:16.01_180]  - [PAUSE] Button Pressed. current timerem is 67.40066909790039
+[2023/07/10 14:16.01_181]  - text to send is ---- pause 1-1
+
+[2023/07/10 14:16.01_193]  - Pause command 1-1
+[2023/07/10 14:16.01_202]  - 202 PAUSE OK
+
+[2023/07/10 14:16.03_436]  - LV move down / selected row number 1
+[2023/07/10 14:16.03_441]  - New playback index is 2
+[2023/07/10 14:16.03_448]  - Get Media from LV list index 2
+[2023/07/10 14:16.03_465]  - --2061--
+----lvdata object is----
+
+--------   Print object list  ---------
+audio_format ---->  2 channels-2
+clip ---->  /proxy_test/HD價Ы/outputfile_sample1_720p
+duration ---->  00:01:34.628
+in ---->  00:00:00.000
+out ---->  00:01:34.628
+status ---->  ﹥ 2 Ⅱ
+title ---->  outputfile_sample1_720p
+
+[2023/07/10 14:16.03_465]  - Start casparpath scan (Get media name from caspar.medianame) = f:\capture
+[2023/07/10 14:16.03_476]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:16.03_681]  - LV move down / selected row number 2
+[2023/07/10 14:16.03_684]  - New playback index is 3
+[2023/07/10 14:16.03_693]  - Get Media from LV list index 3
+[2023/07/10 14:16.03_700]  - --2061--
+----lvdata object is----
+
+--------   Print object list  ---------
+audio_format ---->  2 channels-2
+clip ---->  /proxy_test/HD價Ы/outputfile_sample1_720p
+duration ---->  00:01:34.628
+in ---->  00:00:00.000
+out ---->  00:01:34.628
+status ---->  ﹥ 3 Ⅱ
+title ---->  outputfile_sample1_720p
+
+[2023/07/10 14:16.03_716]  - Start casparpath scan (Get media name from caspar.medianame) = f:\capture
+[2023/07/10 14:16.03_718]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:16.03_841]  - LV move down / selected row number 3
+[2023/07/10 14:16.03_844]  - New playback index is 4
+[2023/07/10 14:16.03_852]  - Get Media from LV list index 4
+[2023/07/10 14:16.03_869]  - --2061--
+----lvdata object is----
+
+--------   Print object list  ---------
+audio_format ---->  2 channels-2
+clip ---->  /proxy_test/HD價Ы/outputfile_sample1_720p
+duration ---->  00:01:34.628
+in ---->  00:00:00.000
+out ---->  00:01:34.628
+status ---->  ﹥ 4 Ⅱ
+title ---->  outputfile_sample1_720p
+
+[2023/07/10 14:16.03_869]  - Start casparpath scan (Get media name from caspar.medianame) = f:\capture
+[2023/07/10 14:16.03_881]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:16.04_009]  - LV move down / selected row number 4
+[2023/07/10 14:16.04_012]  - New playback index is 5
+[2023/07/10 14:16.04_019]  - Get Media from LV list index 5
+[2023/07/10 14:16.04_027]  - --2061--
+----lvdata object is----
+
+--------   Print object list  ---------
+audio_format ---->  2 channels-2
+clip ---->  /proxy_test/HD價Ы/outputfile_sample1_720p
+duration ---->  00:01:34.628
+in ---->  00:00:00.000
+out ---->  00:01:34.628
+status ---->  ﹥ 5 Ⅱ
+title ---->  outputfile_sample1_720p
+
+[2023/07/10 14:16.04_043]  - Start casparpath scan (Get media name from caspar.medianame) = f:\capture
+[2023/07/10 14:16.04_045]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:16.04_173]  - LV move down / selected row number 5
+[2023/07/10 14:16.04_176]  - New playback index is 6
+[2023/07/10 14:16.04_184]  - Get Media from LV list index 6
+[2023/07/10 14:16.04_192]  - --2061--
+----lvdata object is----
+
+--------   Print object list  ---------
+audio_format ---->  2 channels-2
+clip ---->  /proxy_test/HD價Ы/outputfile_sample1_720p
+duration ---->  00:01:34.628
+in ---->  00:00:00.000
+out ---->  00:01:34.628
+status ---->  ﹥ 6 Ⅱ
+title ---->  outputfile_sample1_720p
+
+[2023/07/10 14:16.04_200]  - Start casparpath scan (Get media name from caspar.medianame) = f:\capture
+[2023/07/10 14:16.04_218]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:16.04_580]  - LV move down / selected row number 6
+[2023/07/10 14:16.04_583]  - New playback index is 7
+[2023/07/10 14:16.04_592]  - Get Media from LV list index 7
+[2023/07/10 14:16.04_600]  - --2061--
+----lvdata object is----
+
+--------   Print object list  ---------
+audio_format ---->  2 channels-2
+clip ---->  /proxy_test/HD價Ы/outputfile_sample1_720p
+duration ---->  00:01:34.628
+in ---->  00:00:00.000
+out ---->  00:01:34.628
+status ---->  ﹥ 7 Ⅱ
+title ---->  outputfile_sample1_720p
+
+[2023/07/10 14:16.04_608]  - Start casparpath scan (Get media name from caspar.medianame) = f:\capture
+[2023/07/10 14:16.04_625]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:16.05_660]  - Load LV clip by Click or Drag,  LV line number 2
+[2023/07/10 14:16.05_660]  - Get Media from LV list index by click = 2
+[2023/07/10 14:16.05_670]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:16.05_683]  - Media full path is f:\capture\proxy_test\SD價Ы\sample5_sd.mp4
+[2023/07/10 14:16.06_313]  - Load LV clip by Click or Drag,  LV line number 1
+[2023/07/10 14:16.06_314]  - Get Media from LV list index by click = 1
+[2023/07/10 14:16.06_326]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:16.06_336]  - Media full path is f:\capture\proxy_test\SD價Ы\sample6_sd.mp4
+[2023/07/10 14:16.07_627]  - [LOAD] Button Pressed. current timerem is 67.26720237731934
+[2023/07/10 14:16.07_628]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample6_sd
+[2023/07/10 14:16.07_639]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample6_sd" SEEK 0 LENGTH 7824 
+
+[2023/07/10 14:16.07_651]  - 202 LOADBG OK
+
+[2023/07/10 14:16.07_674]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:16.07_674]  - Finish load command execution
+[2023/07/10 14:16.07_703]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:16.07_720]  - foreground file change detected  -- /proxy_test/SD價Ы/sample6_sd.mp4
+[2023/07/10 14:16.08_500]  - [PLAY] Button Pressed. current timerem is 130.5303955078125
+[2023/07/10 14:16.08_501]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:16.08_511]  - [play command] PLAY 1-1
+[2023/07/10 14:16.08_534]  - 202 PLAY OK
+
+[2023/07/10 14:16.08_562]  - pb index is 1
+[2023/07/10 14:16.22_232]  - Load LV clip by Click or Drag,  LV line number 2
+[2023/07/10 14:16.22_233]  - Get Media from LV list index by click = 2
+[2023/07/10 14:16.22_245]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:16.22_255]  - Media full path is f:\capture\proxy_test\SD價Ы\sample5_sd.mp4
+[2023/07/10 14:16.23_441]  - [LOAD] Button Pressed. current timerem is 115.66554546356201
+[2023/07/10 14:16.23_441]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample5_sd
+[2023/07/10 14:16.23_452]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample5_sd" SEEK 0 LENGTH 5460 
+
+[2023/07/10 14:16.23_464]  - 202 LOADBG OK
+
+[2023/07/10 14:16.23_490]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:16.23_490]  - Finish load command execution
+[2023/07/10 14:16.23_503]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:16.23_627]  - foreground file change detected  -- /proxy_test/SD價Ы/sample5_sd.mp4
+[2023/07/10 14:16.24_584]  - [PLAY] Button Pressed. current timerem is 91.09100341796875
+[2023/07/10 14:16.24_584]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:16.24_597]  - [play command] PLAY 1-1
+[2023/07/10 14:16.24_604]  - pb index is 2
+[2023/07/10 14:16.24_613]  - 202 PLAY OK
+
+[2023/07/10 14:16.41_686]  - [PAUSE] Button Pressed. current timerem is 74.20746994018555
+[2023/07/10 14:16.41_686]  - text to send is ---- pause 1-1
+
+[2023/07/10 14:16.41_700]  - Pause command 1-1
+[2023/07/10 14:16.41_707]  - 202 PAUSE OK
+
+[2023/07/10 14:16.45_612]  - Jump to Button Pressed
+[2023/07/10 14:16.45_613]  - text to send is ---- call 1-1 seek 3266
+
+[2023/07/10 14:16.45_625]  - call 1-1 seek 3266
+[2023/07/10 14:16.45_634]  - 201 CALL OK
+3266
+
+[2023/07/10 14:16.46_428]  - [PLAY] Button Pressed. current timerem is 36.60323715209961
+[2023/07/10 14:16.46_428]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:16.46_441]  - [play command] PLAY 1-1
+[2023/07/10 14:16.46_448]  - pb index is 2
+[2023/07/10 14:16.46_457]  - 202 PLAY OK
+
+[2023/07/10 14:16.50_835]  - Jump to Button Pressed
+[2023/07/10 14:16.50_835]  - text to send is ---- call 1-1 seek 4354
+
+[2023/07/10 14:16.50_848]  - call 1-1 seek 4354
+[2023/07/10 14:16.50_857]  - 201 CALL OK
+4354
+
+[2023/07/10 14:16.51_420]  - [PLAY] Button Pressed. current timerem is 18.01800537109375
+[2023/07/10 14:16.51_420]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:16.51_432]  - [play command] PLAY 1-1
+[2023/07/10 14:16.51_440]  - 202 PLAY OK
+
+[2023/07/10 14:16.51_448]  - pb index is 2
+[2023/07/10 14:17.02_486]  - [PAUSE] Button Pressed. current timerem is 6.9569549560546875
+[2023/07/10 14:17.02_486]  - text to send is ---- pause 1-1
+
+[2023/07/10 14:17.02_498]  - Pause command 1-1
+[2023/07/10 14:17.02_507]  - 202 PAUSE OK
+
+[2023/07/10 14:17.03_408]  - Load LV clip by Click or Drag,  LV line number 3
+[2023/07/10 14:17.03_408]  - Get Media from LV list index by click = 3
+[2023/07/10 14:17.03_420]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:17.03_430]  - Media full path is f:\capture\proxy_test\SD價Ы\sample4_sd.mp4
+[2023/07/10 14:17.04_215]  - [LOAD] Button Pressed. current timerem is 6.890220642089844
+[2023/07/10 14:17.04_216]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample4_sd
+[2023/07/10 14:17.04_228]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample4_sd" SEEK 0 LENGTH 13976 
+
+[2023/07/10 14:17.04_238]  - 202 LOADBG OK
+
+[2023/07/10 14:17.04_274]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:17.04_275]  - Finish load command execution
+[2023/07/10 14:17.04_285]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:17.04_470]  - foreground file change detected  -- /proxy_test/SD價Ы/sample4_sd.mp4
+[2023/07/10 14:17.05_048]  - [PLAY] Button Pressed. current timerem is 233.166259765625
+[2023/07/10 14:17.05_049]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:17.05_059]  - [play command] PLAY 1-1
+[2023/07/10 14:17.05_067]  - 202 PLAY OK
+
+[2023/07/10 14:17.05_076]  - pb index is 3
+[2023/07/10 14:17.12_149]  - Jump to Button Pressed
+[2023/07/10 14:17.12_149]  - text to send is ---- call 1-1 seek 3066
+
+[2023/07/10 14:17.12_161]  - call 1-1 seek 3066
+[2023/07/10 14:17.12_169]  - 201 CALL OK
+3066
+
+[2023/07/10 14:17.16_132]  - Jump to Button Pressed
+[2023/07/10 14:17.16_132]  - text to send is ---- call 1-1 seek 5992
+
+[2023/07/10 14:17.16_145]  - call 1-1 seek 5992
+[2023/07/10 14:17.16_153]  - 201 CALL OK
+5992
+
+[2023/07/10 14:17.29_416]  - Load LV clip by Click or Drag,  LV line number 4
+[2023/07/10 14:17.29_416]  - Get Media from LV list index by click = 4
+[2023/07/10 14:17.29_427]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:17.29_437]  - Media full path is f:\capture\proxy_test\SD價Ы\sample3_sd.mp4
+[2023/07/10 14:17.30_499]  - [LOAD] Button Pressed. current timerem is 119.01889038085938
+[2023/07/10 14:17.30_500]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample3_sd
+[2023/07/10 14:17.30_512]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample3_sd" SEEK 0 LENGTH 5154 
+
+[2023/07/10 14:17.30_523]  - 202 LOADBG OK
+
+[2023/07/10 14:17.30_555]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:17.30_555]  - Finish load command execution
+[2023/07/10 14:17.30_569]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:17.30_628]  - foreground file change detected  -- /proxy_test/SD價Ы/sample3_sd.mp4
+[2023/07/10 14:17.31_390]  - [PLAY] Button Pressed. current timerem is 85.98590087890625
+[2023/07/10 14:17.31_390]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:17.31_403]  - [play command] PLAY 1-1
+[2023/07/10 14:17.31_411]  - 202 PLAY OK
+
+[2023/07/10 14:17.31_420]  - pb index is 4
+[2023/07/10 14:17.47_924]  - Load LV clip by Click or Drag,  LV line number 5
+[2023/07/10 14:17.47_924]  - Get Media from LV list index by click = 5
+[2023/07/10 14:17.47_937]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:17.47_948]  - Media full path is f:\capture\proxy_test\SD價Ы\sample2_sd.mp4
+[2023/07/10 14:17.48_822]  - [LOAD] Button Pressed. current timerem is 68.70196723937988
+[2023/07/10 14:17.48_823]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample2_sd
+[2023/07/10 14:17.48_834]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample2_sd" SEEK 0 LENGTH 5730 
+
+[2023/07/10 14:17.48_844]  - 202 LOADBG OK
+
+[2023/07/10 14:17.48_868]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:17.48_868]  - Finish load command execution
+[2023/07/10 14:17.48_878]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:17.48_928]  - foreground file change detected  -- /proxy_test/SD價Ы/sample2_sd.mp4
+[2023/07/10 14:17.49_442]  - [PLAY] Button Pressed. current timerem is 95.59549713134766
+[2023/07/10 14:17.49_442]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:17.49_453]  - [play command] PLAY 1-1
+[2023/07/10 14:17.49_461]  - 202 PLAY OK
+
+[2023/07/10 14:17.49_470]  - pb index is 5
+[2023/07/10 14:18.09_531]  - Load LV clip by Click or Drag,  LV line number 6
+[2023/07/10 14:18.09_532]  - Get Media from LV list index by click = 6
+[2023/07/10 14:18.09_543]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:18.09_554]  - Media full path is f:\capture\proxy_test\SD價Ы\sample1_sd.mp4
+[2023/07/10 14:18.10_879]  - [LOAD] Button Pressed. current timerem is 74.22414779663086
+[2023/07/10 14:18.10_879]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample1_sd
+[2023/07/10 14:18.10_890]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample1_sd" SEEK 0 LENGTH 5672 
+
+[2023/07/10 14:18.10_901]  - 202 LOADBG OK
+
+[2023/07/10 14:18.10_923]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:18.10_923]  - Finish load command execution
+[2023/07/10 14:18.10_934]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:18.11_063]  - foreground file change detected  -- /proxy_test/SD價Ы/sample1_sd.mp4
+[2023/07/10 14:18.11_557]  - [PLAY] Button Pressed. current timerem is 94.62786865234375
+[2023/07/10 14:18.11_558]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:18.11_571]  - [play command] PLAY 1-1
+[2023/07/10 14:18.11_579]  - 202 PLAY OK
+
+[2023/07/10 14:18.11_587]  - pb index is 6
+[2023/07/10 14:18.15_875]  - Jump to Button Pressed
+[2023/07/10 14:18.15_876]  - text to send is ---- call 1-1 seek 1526
+
+[2023/07/10 14:18.15_888]  - call 1-1 seek 1526
+[2023/07/10 14:18.15_897]  - 201 CALL OK
+1526
+
+[2023/07/10 14:18.21_146]  - Jump to Button Pressed
+[2023/07/10 14:18.21_147]  - text to send is ---- call 1-1 seek 3054
+
+[2023/07/10 14:18.21_159]  - call 1-1 seek 3054
+[2023/07/10 14:18.21_167]  - 201 CALL OK
+3054
+
+[2023/07/10 14:18.36_451]  - Jump to Button Pressed
+[2023/07/10 14:18.36_451]  - text to send is ---- call 1-1 seek 4242
+
+[2023/07/10 14:18.36_462]  - call 1-1 seek 4242
+[2023/07/10 14:18.36_471]  - 201 CALL OK
+4242
+
+[2023/07/10 14:18.37_532]  - [LOAD] Button Pressed. current timerem is 23.02300262451172
+[2023/07/10 14:18.37_533]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample1_sd
+[2023/07/10 14:18.37_542]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample1_sd" SEEK 0 LENGTH 5672 
+
+[2023/07/10 14:18.37_554]  - 202 LOADBG OK
+
+[2023/07/10 14:18.37_580]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:18.37_580]  - Finish load command execution
+[2023/07/10 14:18.37_593]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:18.38_177]  - [PLAY] Button Pressed. current timerem is 94.62786865234375
+[2023/07/10 14:18.38_177]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:18.38_190]  - [play command] PLAY 1-1
+[2023/07/10 14:18.38_198]  - pb index is 6
+[2023/07/10 14:18.38_206]  - 202 PLAY OK
+
+[2023/07/10 14:18.52_763]  - Load LV clip by Click or Drag,  LV line number 8
+[2023/07/10 14:18.52_763]  - Get Media from LV list index by click = 8
+[2023/07/10 14:18.52_773]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:18.52_783]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample2_720p.mp4
+[2023/07/10 14:18.54_079]  - [LOAD] Button Pressed. current timerem is 78.81206893920898
+[2023/07/10 14:18.54_080]  - --caspar.medianame-- at load time is = /proxy_test/HD價Ы/outputfile_sample2_720p
+[2023/07/10 14:18.54_090]  - text to send is ---- loadbg 1-1 "/proxy_test/HD價Ы/outputfile_sample2_720p" SEEK 0 LENGTH 5730 
+
+[2023/07/10 14:18.54_101]  - 202 LOADBG OK
+
+[2023/07/10 14:18.54_132]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:18.54_132]  - Finish load command execution
+[2023/07/10 14:18.54_143]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:18.54_269]  - foreground file change detected  -- /proxy_test/HD價Ы/outputfile_sample2_720p.mp4
+[2023/07/10 14:18.55_462]  - Load LV clip by Click or Drag,  LV line number 10
+[2023/07/10 14:18.55_462]  - Get Media from LV list index by click = 10
+[2023/07/10 14:18.55_475]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:18.55_486]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample4_720p.mp4
+[2023/07/10 14:18.56_322]  - [LOAD] Button Pressed. current timerem is 95.59549713134766
+[2023/07/10 14:18.56_323]  - --caspar.medianame-- at load time is = /proxy_test/HD價Ы/outputfile_sample4_720p
+[2023/07/10 14:18.56_334]  - text to send is ---- loadbg 1-1 "/proxy_test/HD價Ы/outputfile_sample4_720p" SEEK 0 LENGTH 13976 
+
+[2023/07/10 14:18.56_344]  - 202 LOADBG OK
+
+[2023/07/10 14:18.56_360]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:18.56_360]  - Finish load command execution
+[2023/07/10 14:18.56_370]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:18.56_474]  - foreground file change detected  -- /proxy_test/HD價Ы/outputfile_sample4_720p.mp4
+[2023/07/10 14:19.08_462]  - Load LV clip by Click or Drag,  LV line number 11
+[2023/07/10 14:19.08_462]  - Get Media from LV list index by click = 11
+[2023/07/10 14:19.08_472]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:19.08_482]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample5_720p.mp4
+[2023/07/10 14:19.09_523]  - [LOAD] Button Pressed. current timerem is 233.166259765625
+[2023/07/10 14:19.09_523]  - --caspar.medianame-- at load time is = /proxy_test/HD價Ы/outputfile_sample5_720p
+[2023/07/10 14:19.09_535]  - text to send is ---- loadbg 1-1 "/proxy_test/HD價Ы/outputfile_sample5_720p" SEEK 0 LENGTH 5460 
+
+[2023/07/10 14:19.09_545]  - 202 LOADBG OK
+
+[2023/07/10 14:19.09_567]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:19.09_568]  - Finish load command execution
+[2023/07/10 14:19.09_578]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:19.09_772]  - foreground file change detected  -- /proxy_test/HD價Ы/outputfile_sample5_720p.mp4
+[2023/07/10 14:19.10_136]  - [PLAY] Button Pressed. current timerem is 91.09100341796875
+[2023/07/10 14:19.10_136]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:19.10_147]  - [play command] PLAY 1-1
+[2023/07/10 14:19.10_155]  - pb index is 11
+[2023/07/10 14:19.10_164]  - 202 PLAY OK
+
+[2023/07/10 14:19.13_725]  - Load LV clip by Click or Drag,  LV line number 7
+[2023/07/10 14:19.13_725]  - Get Media from LV list index by click = 7
+[2023/07/10 14:19.13_736]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:19.13_745]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample1_720p.mp4
+[2023/07/10 14:19.14_703]  - [LOAD] Button Pressed. current timerem is 86.70328664779663
+[2023/07/10 14:19.14_703]  - --caspar.medianame-- at load time is = /proxy_test/HD價Ы/outputfile_sample1_720p
+[2023/07/10 14:19.14_713]  - text to send is ---- loadbg 1-1 "/proxy_test/HD價Ы/outputfile_sample1_720p" SEEK 0 LENGTH 5672 
+
+[2023/07/10 14:19.14_725]  - 202 LOADBG OK
+
+[2023/07/10 14:19.14_756]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:19.14_756]  - Finish load command execution
+[2023/07/10 14:19.14_768]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:19.14_801]  - foreground file change detected  -- /proxy_test/HD價Ы/outputfile_sample1_720p.mp4
+[2023/07/10 14:19.15_317]  - [PLAY] Button Pressed. current timerem is 94.62786865234375
+[2023/07/10 14:19.15_318]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:19.15_330]  - [play command] PLAY 1-1
+[2023/07/10 14:19.15_337]  - pb index is 7
+[2023/07/10 14:19.15_345]  - 202 PLAY OK
+
+[2023/07/10 14:19.39_832]  - Jump to Button Pressed
+[2023/07/10 14:19.39_833]  - text to send is ---- call 1-1 seek 2318
+
+[2023/07/10 14:19.39_845]  - call 1-1 seek 2318
+[2023/07/10 14:19.39_853]  - 201 CALL OK
+2318
+
+[2023/07/10 14:19.48_070]  - Jump to Button Pressed
+[2023/07/10 14:19.48_070]  - text to send is ---- call 1-1 seek 3620
+
+[2023/07/10 14:19.48_081]  - call 1-1 seek 3620
+[2023/07/10 14:19.48_090]  - 201 CALL OK
+3620
+
+[2023/07/10 14:19.55_104]  - Jump to Button Pressed
+[2023/07/10 14:19.55_104]  - text to send is ---- call 1-1 seek 4694
+
+[2023/07/10 14:19.55_115]  - call 1-1 seek 4694
+[2023/07/10 14:19.55_123]  - 201 CALL OK
+4694
+
+[2023/07/10 14:20.02_398]  - Load LV clip by Click or Drag,  LV line number 8
+[2023/07/10 14:20.02_398]  - Get Media from LV list index by click = 8
+[2023/07/10 14:20.02_410]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:20.02_421]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample2_720p.mp4
+[2023/07/10 14:20.03_411]  - [LOAD] Button Pressed. current timerem is 8.241569519042969
+[2023/07/10 14:20.03_412]  - --caspar.medianame-- at load time is = /proxy_test/HD價Ы/outputfile_sample2_720p
+[2023/07/10 14:20.03_422]  - text to send is ---- loadbg 1-1 "/proxy_test/HD價Ы/outputfile_sample2_720p" SEEK 0 LENGTH 5730 
+
+[2023/07/10 14:20.03_434]  - 202 LOADBG OK
+
+[2023/07/10 14:20.03_460]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:20.03_460]  - Finish load command execution
+[2023/07/10 14:20.03_471]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:20.03_502]  - foreground file change detected  -- /proxy_test/HD價Ы/outputfile_sample2_720p.mp4
+[2023/07/10 14:20.04_131]  - [PLAY] Button Pressed. current timerem is 95.59549713134766
+[2023/07/10 14:20.04_131]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:20.04_144]  - [play command] PLAY 1-1
+[2023/07/10 14:20.04_152]  - pb index is 8
+[2023/07/10 14:20.04_162]  - 202 PLAY OK
+
+[2023/07/10 14:20.57_796]  - Load LV clip by Click or Drag,  LV line number 11
+[2023/07/10 14:20.57_796]  - Get Media from LV list index by click = 11
+[2023/07/10 14:20.57_809]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:20.57_819]  - Media full path is f:\capture\proxy_test\HD價Ы\outputfile_sample5_720p.mp4
+[2023/07/10 14:21.01_402]  - [LOAD] Button Pressed. current timerem is 38.53849792480469
+[2023/07/10 14:21.01_403]  - --caspar.medianame-- at load time is = /proxy_test/HD價Ы/outputfile_sample5_720p
+[2023/07/10 14:21.01_413]  - text to send is ---- loadbg 1-1 "/proxy_test/HD價Ы/outputfile_sample5_720p" SEEK 0 LENGTH 5460 
+
+[2023/07/10 14:21.01_423]  - 202 LOADBG OK
+
+[2023/07/10 14:21.01_444]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:21.01_444]  - Finish load command execution
+[2023/07/10 14:21.01_453]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:21.01_659]  - foreground file change detected  -- /proxy_test/HD價Ы/outputfile_sample5_720p.mp4
+[2023/07/10 14:21.02_124]  - [PLAY] Button Pressed. current timerem is 91.09100341796875
+[2023/07/10 14:21.02_124]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:21.02_136]  - [play command] PLAY 1-1
+[2023/07/10 14:21.02_144]  - 202 PLAY OK
+
+[2023/07/10 14:21.02_152]  - pb index is 11
+[2023/07/10 14:21.11_748]  - Load LV clip by Click or Drag,  LV line number 4
+[2023/07/10 14:21.11_748]  - Get Media from LV list index by click = 4
+[2023/07/10 14:21.11_759]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:21.11_769]  - Media full path is f:\capture\proxy_test\SD價Ы\sample3_sd.mp4
+[2023/07/10 14:21.12_688]  - [LOAD] Button Pressed. current timerem is 80.74733638763428
+[2023/07/10 14:21.12_688]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample3_sd
+[2023/07/10 14:21.12_699]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample3_sd" SEEK 0 LENGTH 5154 
+
+[2023/07/10 14:21.12_708]  - 202 LOADBG OK
+
+[2023/07/10 14:21.12_736]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:21.12_737]  - Finish load command execution
+[2023/07/10 14:21.12_748]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:21.12_928]  - foreground file change detected  -- /proxy_test/SD價Ы/sample3_sd.mp4
+[2023/07/10 14:21.13_387]  - [PLAY] Button Pressed. current timerem is 85.98590087890625
+[2023/07/10 14:21.13_387]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:21.13_397]  - [play command] PLAY 1-1
+[2023/07/10 14:21.13_405]  - pb index is 4
+[2023/07/10 14:21.13_414]  - 202 PLAY OK
+
+[2023/07/10 14:21.22_483]  - Load LV clip by Click or Drag,  LV line number 5
+[2023/07/10 14:21.22_484]  - Get Media from LV list index by click = 5
+[2023/07/10 14:21.22_494]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:21.22_505]  - Media full path is f:\capture\proxy_test\SD價Ы\sample2_sd.mp4
+[2023/07/10 14:21.23_363]  - [LOAD] Button Pressed. current timerem is 76.22615051269531
+[2023/07/10 14:21.23_363]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample2_sd
+[2023/07/10 14:21.23_373]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample2_sd" SEEK 0 LENGTH 5730 
+
+[2023/07/10 14:21.23_384]  - 202 LOADBG OK
+
+[2023/07/10 14:21.23_407]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:21.23_408]  - Finish load command execution
+[2023/07/10 14:21.23_419]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:21.23_596]  - foreground file change detected  -- /proxy_test/SD價Ы/sample2_sd.mp4
+[2023/07/10 14:21.24_101]  - [PLAY] Button Pressed. current timerem is 95.59549713134766
+[2023/07/10 14:21.24_101]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:21.24_112]  - [play command] PLAY 1-1
+[2023/07/10 14:21.24_120]  - pb index is 5
+[2023/07/10 14:21.24_129]  - 202 PLAY OK
+
+[2023/07/10 14:21.32_604]  - Load LV clip by Click or Drag,  LV line number 6
+[2023/07/10 14:21.32_604]  - Get Media from LV list index by click = 6
+[2023/07/10 14:21.32_615]  - Start casparpath scan (Get media name from playlist) = f:\capture
+[2023/07/10 14:21.32_625]  - Media full path is f:\capture\proxy_test\SD價Ы\sample1_sd.mp4
+[2023/07/10 14:21.33_660]  - [LOAD] Button Pressed. current timerem is 86.31956386566162
+[2023/07/10 14:21.33_661]  - --caspar.medianame-- at load time is = /proxy_test/SD價Ы/sample1_sd
+[2023/07/10 14:21.33_671]  - text to send is ---- loadbg 1-1 "/proxy_test/SD價Ы/sample1_sd" SEEK 0 LENGTH 5672 
+
+[2023/07/10 14:21.33_683]  - 202 LOADBG OK
+
+[2023/07/10 14:21.33_706]  - text to send is ---- play 1-1
+pause 1-1
+
+[2023/07/10 14:21.33_706]  - Finish load command execution
+[2023/07/10 14:21.33_717]  - 202 PLAY OK
+202 PAUSE OK
+
+[2023/07/10 14:21.33_860]  - foreground file change detected  -- /proxy_test/SD價Ы/sample1_sd.mp4
+[2023/07/10 14:21.34_572]  - [PLAY] Button Pressed. current timerem is 94.62786865234375
+[2023/07/10 14:21.34_572]  - text to send is ---- PLAY 1-1
+
+[2023/07/10 14:21.34_583]  - [play command] PLAY 1-1
+[2023/07/10 14:21.34_591]  - pb index is 6
+[2023/07/10 14:21.34_600]  - 202 PLAY OK
+
+[2023/07/10 14:21.51_643]  - ------------------  Application Close -----------------------
+[2023/07/10 14:21.52_844]  - text to send is ---- clear 1-1
+
+[2023/07/10 14:21.52_846]  - 202 CLEAR OK
+
+[2023/07/10 14:21.53_054]  - text to send is ---- klll
+
+[2023/07/10 14:21.53_055]  - 400 ERROR
+klll
+
+[2023/07/10 14:21.53_175]  - There is Engine process, Try to close it 
+[2023/07/10 14:21.54_333]  - Destroying python info reader class....
+[2023/07/10 14:21.54_333]  - Delete udp remote class.....

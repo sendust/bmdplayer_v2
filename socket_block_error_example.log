@@ -1,0 +1,37 @@
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.06)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.05)
+140: While,(!(Length := this.MsgSize()) && this.Blocking)
+115: if (DllCall("Ws2_32\ioctlsocket", "UInt", this.Socket, "UInt", FIONREAD, "UInt*", argp) == -1)  
+117: Return,argp
+141: Sleep,this.BlockSleep (0.02)

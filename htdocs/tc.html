@@ -1,0 +1,82 @@
+<html>
+<head>
+<META http-equiv="Expires" contest="-1">
+<META http-equiv="Pragma" contest="no-cache">
+<META http-equiv="ExpiresCache-Control" content="No-Cache">
+
+<script>
+
+function createXHR() {
+    try {
+        return new XMLHttpRequest();
+    } catch (e) {
+        try {
+            return new ActiveXObject("Microsoft.XMLHTTP");
+        } catch (e) {
+            return new ActiveXObject("Msxml2.XMLHTTP");
+        }
+    }
+};
+
+
+function send_request(){
+	xmlhttp.open("GET", "listen_udp.php?t=" + Math.random(), true);
+	xmlhttp.send();
+
+};
+
+var xmlhttp = createXHR();
+ send_request();			// send first request
+
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+	document.getElementById("txt").innerHTML = this.responseText;
+	send_request();		// send repeative request (every return arrived)
+  }
+  else{
+  //console.log("readyStats is " + this.readyState + "    status is " + this.status );
+  };
+}
+
+</script>
+
+<style>
+body {
+  background-color: transparent;
+  background-size : 1920px 1080px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color : gray;
+  font-size: 10px;
+}
+
+div {
+	font-family : "Arial", sans-serif;
+	color : white;
+	position : absolute;
+	top : 50px;
+	left : 1300px;
+	font-weight : bold;
+    background-color:transparent;
+	font-size : 50px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+</style>
+</head>
+</head>
+
+<body>
+
+<p> ---    ststus -----  </p>
+<div id="txt"></div>
+
+
+</body>
+</html>

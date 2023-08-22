@@ -1,0 +1,36 @@
+FileRead, outputvar, %A_WorkingDir%\decision_cm.txt
+
+
+cm_table := Object()
+
+Loop, Parse, outputvar, `n, `r
+{
+	arry := StrSplit(A_LoopField, "|" , "`r")
+	if (A_Index > 1)
+		if (StrLen(arry[1]) >  2)
+			cm_table[arry[1]] := arry[2]	
+}
+
+
+for key, val in cm_table
+	print(key . "  ---->  " . val)
+
+test := "POST_CM"
+duration_ms := 300
+source := "ts-5"
+bandtype := ",""bandType"":""" . test . """"
+bandtype := ""
+objParam := { "cmData": "{""duration"":""" . duration_ms . """,""source"":""" .   source . """" .  bandtype . "" . "}"}
+
+print(objParam["cmData"])
+
+esc::ExitApp
+
+
+
+
+print(text)
+{
+	FileAppend, `n%text%, *
+	return text
+}

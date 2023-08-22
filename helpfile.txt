@@ -1,0 +1,50 @@
+도움말
+-------------------------------------------------
+Media information
+ - Media Folder 를 클릭하고, 동영상 파일을 드래그 드롭 하면 속성을 보여줍니다
+RESET : IN 점 초기화/ CLEAR : OUT 점 초기화
+PVW-FILE : VGA 화면으로 로드된 파일 프리뷰
+PVW-SDI : VGA 화면으로 SDI 채널로 재생중인 파일 프리뷰
+IN, OUT : IN, OUT 편집점 지정 (VGA PREVIEW 필수)
+-------------------------------------------------
+NO LOOP, SINGLE CIP, PLAYLIST ; LOOP PLAY 대상을 지정합니다
+  - 루프없음 ,클립 1개, 플레이 리스트
+SDI WINDOW : SDI 출력 화면 보기 창을 열거나 닫습니다
+  - PAUSE 상태에서 실행 할것
+AUTO LOAD 
+  - PLAYLIST 항목을 더블클릭 또는 드래그 시 클립을 즉시 로드함
+  - 프리뷰 화면에서 in 점 설정 시 클립을 즉시 로드함
+  - 프리뷰 화면에서 space 바를 눌렀을때 프리뷰, SDI 출력 동시 play 시작
+JUMP
+  - 슬라이더 바를 움직이고 JUMP 버튼을 누르면 SDI 채널은 해당 구간으로 이동함
+-------------------------------------------------
+LOAD/PREROLL : SDI 채널 클립 로드 (IN 점), 우클릭:언로드
+PLAY : SDI 채널 재생 시작
+PAUSE : SDI 채널 화면 일시 정지
+-------------------------------------------------
+MEDIA FOLDER : 미디어 폴더를 연다
+MOUNT : MEDIA Folder 외 다른 경로에 있는 클립을 사용하고자 할때 마운트 함
+ADD ▶: 플레이 리스트에 현재 클립 추가
+  - 왼쪽클릭 : 플레이 리스트 일시정지 라인 추가
+-------------------------------------------------
+PVW-PLIST : VGA 화면으로 플레이 리스트 프리뷰
+LIST1~LIST9, SAVE, LOAD : 플레이 리스트 선택, 저장, 불러오기
+DELETE : 선택된 플레이 리스트 항목 삭제
+▲,▼ : 선택된 플레이 리스트 항목 위, 아래로 이동
+  - 이동 후 SAVE, LOAD 버튼을 순서대로 누름, 순서를 재정렬
+HELP : 도움말 보이기
+PLAYLIST PLAY : 플레이 리스트 재생 시작
+[PageUP] : Playlist Previous 단축키
+[PageDown] : Playlist Next 단축키
+-------------------------------------------------
+VGA 프리뷰 단축키 (Caps lock off 상태에서만 동작함)
+
+i, o, enter ; IN 점, OUT 점 지정, PLAYLIST 추가
+d ; IN 점 기준으로 현재 프레임까지 DURATION
+control-i, o : IN, OUT 점으로 이동
+g : 현재 프리뷰 위치로 SDI 채널을 동기화함
+j, k, l ; -1초, +1초 이동 
+, . ; -1 frame, +1 frame 이동
+q ; 프리뷰 화면 종료
+상,하,좌,우 : +1분, -1분, -5초, +5초 이동
+[,],Backspace ; 재생속도 느리게,빠르게, 정상속도 재생

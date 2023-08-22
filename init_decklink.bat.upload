@@ -1,0 +1,4 @@
+ffmpeg2020_11.5.1.exe -sinks decklink
+ffmpeg2020_11.5.1.exe -f lavfi -i testsrc2=r=29.97:size=960x540 -f lavfi -i sine=r=48000:f=800 -f decklink -pix_fmt uyvy422 -filter_complex "[0:v]scale=1920x1080[v1];[v1]setfield=tff;[1:a]pan=7.1|c0=c0|c1=c0|c2=c0|c3=c0|c4=c0|c5=c0|c6=c0|c7=c0" -r 30000/1001 "DeckLink Duo (4)"
+pause
+

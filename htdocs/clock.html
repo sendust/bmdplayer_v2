@@ -1,0 +1,77 @@
+<html>
+
+
+<script>
+
+
+
+function displayclock() {
+	var now = new Date();
+	
+	var hours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds();
+	var mili = now.getMilliseconds();
+	
+	var str_h = "00" + hours.toString();
+	var str_m = "00" + minutes.toString();
+	var str_sec = "00" + seconds.toString();
+	var str_msec = "00" + mili.toString();
+	
+	var str_date = now.getFullYear() + " / " + (now.getMonth() + 1 ) + " / " + now.getDate();
+	
+	
+	str_h = str_h.slice(-2);
+	str_m = str_m.slice(-2);
+	str_sec = str_sec.slice(-2);
+	str_msec = str_msec.slice(-3, -1);
+	
+	document.getElementById("txt").innerHTML =  str_date + "<br>" + str_h + ":" + str_m + ":" + str_sec + "." + str_msec;
+	var t = setTimeout(function(){displayclock()}, 10);
+}
+
+
+</script>
+
+<style>
+body {
+  background-color: transparent;
+  background-size : 1920px 1080px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color : gray;
+  font-size: 10px;
+}
+
+div {
+	font-family : "Arial", sans-serif;
+	color : pink;
+	position : absolute;
+	top : 50px;
+	left : 0px;
+	width : 1920px;
+	font-weight : bold;
+	text-align : center;
+    background-color:transparent;
+	font-size : 150px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+</style>
+</head>
+</head>
+
+<body>
+
+<p> ---    ststus -----  </p>
+<div id="txt"></div>
+
+<body onload="displayclock()">
+</body>
+</html>

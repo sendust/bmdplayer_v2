@@ -1,0 +1,14 @@
+#### SBS 대체 광고 CM 설정 파일 ####|#### SBS 대체 광고 CM 설정 파일 ####
+-전CM--|PRE_CM
+-후CM--|POST_CM
+-전PCM--|MID_CM
+-후PCM--|MID_CM
+-중CM1--|MID_CM
+-중CM2--|MID_CM
+-중CM3--|MID_CM
+-중CM4--|MID_CM
+-중CM5--|MID_CM
+-중CM6--|MID_CM
+-중CM7--|MID_CM
+-중CM8--|MID_CM
+-중CM9--|MID_CM
